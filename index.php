@@ -1,115 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <!--[if IE]>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <![endif]-->
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- page title -->
-      <title>Cake & Bake - HTML5 Template</title>
-      <!--[if lt IE 9]>
-      <script src="js/respond.js"></script>
-      <![endif]-->
-      <!-- Font files -->
-      <link href="https://fonts.googleapis.com/css?family=Satisfy:400,400i,700,700i%7CNunito:300,400,700" rel="stylesheet">
-      <link href="fonts/flaticon/flaticon.css" rel="stylesheet" type="text/css">
-      <link href="fonts/fontawesome/fontawesome-all.min.css" rel="stylesheet" type="text/css">
-      <!-- Favicons-->
-      <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-      <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
-      <!-- Bootstrap core CSS -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <!-- style CSS -->
-      <link href="css/style.css" rel="stylesheet">
-      <!-- plugins CSS -->
-      <link href="css/plugins.css" rel="stylesheet">
-      <!-- Colors CSS -->
-      <link href="styles/maincolors.css" rel="stylesheet">
-      <!-- LayerSlider CSS -->
-      <link rel="stylesheet" href="vendor/layerslider/css/layerslider.css">
-      <!-- Prefix free -->
-      <script src="js/prefixfree.min.js"></script>
-	</head>
-   <!-- ==== body starts ==== -->
-   <body id="top">
-     <!-- Preloader -->
-      <div id="preloader">
-         <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-         </div>
-      </div>
-      <!-- ===== Page Content ===== -->
-      <div class="container-fluid">
-         <!-- ===== Sidebar starts ===== -->
-         <div id="sidebar" class="split col-md-2">
-            <div class="affix-sidebar col-md-12">
-               <div class="sidebar-nav">
-                  <div class="navbar navbar-default" role="navigation">
-                     <div class="navbar-header">
-                        <!-- collapse button -->
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                        <!-- Logo -->
-                        <div class="brand">
-                           <a href="index.html">
-                           <img src="img/logo.png" alt="" class="img-responsive center-block" >
-                           </a>
-                        </div>
-                        <!-- /brand -->
-                     </div>
-                     <!-- /navbar-header  -->
-                     <div class="navbar-collapse collapse sidebar-navbar-collapse ">
-                        <ul class="nav navbar-nav" id="sidenav01">
-                           <li class="active"><a href="index.html">Home</a></li>
-                           <li><a href="services.html">Our Services</a></li>
-                           <li><a href="aboutus.html">About Us</a></li>
-                           <li><a href="gallery.html">Gallery</a></li>
-                           <li><a href="menu.html">Menu</a></li>
-                           <li><a href="contact.html">Contact</a></li>
-                           <li class="dropdown">
-                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages
-                              <span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                 <li><a href="blog.html">Blog Home</a></li>
-                                 <li><a href="blog-single.html">Blog Single</a></li>
-                                 <li><a href="elements.html">Elements page</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                        <!-- navbar-nav -->
-                     </div>
-                     <!--/.nav-collapse -->
-                  </div>
-                  <!--/navbar -->
-               </div>
-               <!--/sidebar-nav -->
-               <div class="navbar-info hidden-sm hidden-xs hidden-md">
-                  <p class="small-text"><i class="fas fa-map-marker-alt margin-icon"></i>Street name 123 - New York</p>
-                  <p class="small-text"><i class="fas fa-phone margin-icon"></i>(90) 1234 -5678</p>
-                  <p class="small-text"><i class="far fa-clock margin-icon"></i>Mon-Sat: 9am-5pm</p>
-                  <!--Social icons -->
-                  <div class="social-media ">
-                     <a href="#" title=""><i class="fas fa-envelope"></i></a>
-                     <a href="#" title=""><i class="fab fa-twitter"></i></a>
-                     <a href="#" title=""><i class="fab fa-facebook"></i></a>
-                     <a href="#" title=""><i class="fab fa-instagram"></i></a>
-                  </div>
-               </div>
-               <!-- /navbar-info -->
-            </div>
-            <!-- /affix-sidebar  -->
-         </div>
-         <!-- ===== / sidebar ends ===== -->
+<?php
+include './header.php';
+?>
 		 <!-- ===== content starts  ===== -->
          <div id="content" class="col-md-10 split">
             <div class="content-wrapper">
@@ -122,10 +13,10 @@
                      <!-- text  -->
                      <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400;">
                         <div class="header-text">
-                           <h1><span>Welcome to</span> <br/>Cake & Bake</h1>
-                           <p class="header-p">We offer high quality, delicious,"from scratch" cakes! See our menu for more information</p>
+                           <h1><span>Welcome to</span> <br/>Parriez Choccassions</h1>
+                           <p class="header-p">HANDCRAFTED GOURMET CHOCOLATES</p>
                            <div class="hidden-small">
-                              <a class="btn btn-primary" href="menu.html">Our Menu</a>
+                              <a class="btn btn-primary" href="menu.php">Our Menu</a>
                            </div>
                            <!--/hidden-small -->
                         </div>
@@ -141,10 +32,10 @@
                      <!-- text  -->
                      <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400;">
                         <div class="header-text">
-                           <h1>We offer Catering</h1>
-                           <p class="header-p">We offer catering services for any kind og event! Contact us to make an order</p>
+                           <h1>The Parriez Story</h1>
+                           <p class="header-p">Chocolate Makes Everything Better... </p>
                            <!--the div below is hidden on small screens  -->
-                           <div class="hidden-small"><a class="btn btn-primary" href="contact.html">Contact us</a>
+                           <div class="hidden-small"><a class="btn btn-primary" href="contact.php">Contact us</a>
                            </div>
                            <!--/hidden-small -->
                         </div>
@@ -160,11 +51,11 @@
                      <!-- text  -->
                      <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400;">
                         <div class="header-text">
-                           <h1><span>Welcome to</span> <br/>Cake & Bake</h1>
-                           <p class="header-p">We offer high quality, delicious,"from scratch" cakes! See our menu for more information</p>
+                           <h1>THE PARRIEZ ENSEMBLE</h1>
+                           <p class="header-p">"There is nothing better than a friend, unless it is a friend with chocolate."<br /><small>-Linda Grayson</small></p>
                            <!--the div below is hidden on small screens  -->
                            <div class="hidden-small">
-                              <a class="btn btn-primary" href="menu.html">Our Menu</a>
+                              <a class="btn btn-primary" href="menu.php">Our Menu</a>
                            </div>
                            <!--/hidden-small -->
                         </div>
@@ -180,11 +71,11 @@
                      <!-- text  -->
                      <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400;">
                         <div class="header-text">
-                           <h1>We offer Catering</h1>
-                           <p class="header-p">We offer catering services for any kind og event! Contact us to make an order</p>
+                           <h1>Photo Gallery</h1>
+                           <p class="header-p"></p>
                            <!--the div below is hidden on small screens  -->
                            <div class="hidden-small">              
-                              <a class="btn btn-primary" href="contact.html">Contact us</a>
+                              <a class="btn btn-primary" href="contact.php">See Our Journey</a>
                            </div>
                            <!--/hidden-small -->
                         </div>
@@ -203,10 +94,22 @@
                   <section class="inside-page">
                      <div class="inside-wrapper container">
                         <div class="col-md-12">
-                           <h2 class="text-center-sm">Made with love</h2>
+                           <h2 class="text-center-sm">The Festive Season</h2>
                            <img class="img-responsive img-rounded pull-right-lg col-md-4 center-block" src="img/services/services-home.jpg" alt="">
-                           <p class="lead res-margin">High Quality services since 2001, qui fabulas definitiones at, ei nibh offendit mel. Eius comprehensam ex est.Pri ei laudem invenire, has ex regione sapientem</p>
-                           <p>Lorem ipsum dolor sit amet, per no malorum aliquam utroque, vim legere eleifend an, malis delicatissimi vel te. Pro fuisset splendide vulputate an, quo eu eripuit nominati. Sit enim eius laoreet te, qui fabulas definitiones at, ei nibh offendit mel. Eius comprehensam ex est.Pri ei laudem invenire, has ex regione sapientem.</p>
+                           <p class="lead res-margin">We would be delighted to discuss your requirements for the Durga Puja, Diwali, Christmas, New Year celebrations. We would customize the chocolate ensemble and mix to suit your requirement.</p>
+                           <p> We can execute large orders while retaining the charm of personalized touch. On your request we would arrange to deliver the chocolates to your friends and associates anywhere within the country. Please allow us 2 weeks to plan and execute large orders if the quantity exceeds 100 boxes.</p>
+                        </div>
+                        <div class="col-md-12">
+                           <img class="img-responsive img-rounded pull-left-lg col-md-4 center-block" src="img/services/services-home.jpg" alt="" style="margin-top:80px">
+                           <h2 class="text-md-right">Personal Celebrations</h2>
+                           <p class="lead res-margin">We believe that Parriez Handcrafted Gourmet Chocolates bring, charm, grace and happiness to all those personal moments in life when you celebrate with your friends and family.</p>
+                           <p>We make fresh chocolates to service orders anywhere in the country. It is our promise that Parriez are always hand crafted under personally supervised conditions, using the finest ingredients, handpicked by our Master Chocolatier. Our chocolates are not available in retail stores. We freshly pack and promptly deliver.</p>
+                        </div>
+                        <div class="col-md-12">
+                           <h2 class="text-center-sm" style="margin-top:20px">For Clients & Colleagues</h2>
+                           <img class="img-responsive img-rounded pull-right-lg col-md-4 center-block" src="img/services/services-home.jpg" alt="">
+                           <p class="lead res-margin">We have conducted extensive blind tests among prospective consumers and connoisseurs using the finest selection of international chocolates.</p>
+                           <p> They have consistently rated Parriez to be the preferred brand. We truly believe that sincerity and promise makes us the right partners for you to gift Parriez chocolates, the right token of appreciation for your clients and associates. To personalize your gift besides customozed box, we could also imprint your logo / message on white chocolate.</p>
                         </div>
                         <!-- owl-carousel -->
                         <div id="owl-services" class="owl-carousel owl-theme text-center res-margin">
@@ -324,12 +227,9 @@
                                        </div>
                                        <h3 class="text-center-sm">Why Choose us?</h3>
                                        <!-- about carousel -->
-                                       <p>Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
-                                       <p><strong>Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall Maecenas at arcu risus scelerisque laoree.</strong></p>
-                                       <p>Felis tiam non metus Placerat a ultricies a, posuere lorem ipseut lincas psuiem t volut pat phas ellus ac 
-                                          sodales Lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id omnis a nibh fusce mollis  
-                                          viverra elit
-                                       </p>
+                                       <p>Conceived by Praveen (PARRY), a marine engineer by qualification and a chocolate aficionado at heart, <strong>“PARRIEZ - Gourmet Handcrafted Chocolates”</strong>creates handcrafted chocolate truffles and soft-centered pralines.</p>
+                              <p>Prepared with the best ingredients and a wide range of tempting flavors, these chocolates are cauldron-fresh and a gourmet’s delight.</p>
+                              <p><strong>PARRIEZ</strong> chocolates can also be presented in custom packages to match your special occasions. Unravel infinite possibilities to indulge yourself.</p>
                                     </div>
                                     <!-- /tab-pane -->
                                     <div class="tab-pane fade" id="B">
@@ -337,15 +237,15 @@
                                        <div class="col-md-4 p-2 pull-right-lg">
                                           <img class="img-responsive img-rounded center-block" src="img/tab2.jpg" alt="">
                                        </div>
-                                       <p>Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
-                                       <p><strong>Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall Maecenas at arcu risus scelerisque laoree.</strong></p>
-                                       <ul class="custom pl-0">
+                                       <p>We believe that Parriez Handcrafted Gourmet Chocolates bring, charm, grace and happiness to all those personal moments in life when you celebrate with your friends and family.</p>
+                                       <p><strong>We take great pride in understanding and fulfilling bespoke orders. If you have a large order quantity in mind for a special occasion, we would be delighted for you to personally visit us.</strong></p>
+                                       <!-- <ul class="custom pl-0">
                                           <li>Ipuset phas ellus ac sodales Lorem ipsum dolor</li>
                                           <li>Curabitur blandit pretium interdum. Aliquam sit amet elementum odio, vel ultrices dui. Pellentesque ac odio vitae felis suscipit </li>
                                           <li>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores</li>
                                           <li>Ipuset phas ellus ac sodales Lorem ipsum dolor</li>
                                           <li>Curabitur blandit pretium interdum. Aliquam sit amet elementum odio, vel ultrices dui. Pellentesque ac odio vitae felis suscipit </li>
-                                       </ul>
+                                       </ul> -->
                                     </div>
                                     <!-- /tab-pane -->
                                     <div class="tab-pane fade" id="C">
@@ -384,7 +284,7 @@
                            <div class="col-md-12 p-1">
                               <div class="post-slide box-hover">
                                  <div class="post-img">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                        <!-- Image -->
                                        <img class="img-responsive" src="img/blog/blogprev1.jpg" alt="">
                                        <!--date -->
@@ -396,14 +296,14 @@
                                  </div>
                                  <!-- post info -->
                                  <div class="post-review">
-                                    <h5 class="post-title"><a href="blog-single.html">The Best pastries for easter time</a></h5>
+                                    <h5 class="post-title"><a href="blog-single.php">The Best pastries for easter time</a></h5>
                                     <ul class="post-bar">
                                        <li><i class="fa fa-user"></i><a href="#">admin</a></li>
                                        <li><i class="fa fa-comment"></i><a href="#">7</a></li>
                                     </ul>
                                     <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni, nesciunt obcaecati possimus...</p>
                                     <!-- button -->
-                                    <a class="btn btn-primary btn-md" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary btn-md" href="blog-single.php">Read More</a>
                                  </div>
                                  <!--/post-review -->
                               </div>
@@ -414,7 +314,7 @@
                            <div class="col-md-12 p-1">
                               <div class="post-slide box-hover">
                                  <div class="post-img">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                        <!-- Image -->
                                        <img class="img-responsive" src="img/blog/blogprev2.jpg" alt="">
                                        <!--date -->
@@ -426,14 +326,14 @@
                                  </div>
                                  <!-- post info -->
                                  <div class="post-review">
-                                    <h5 class="post-title"><a href="blog-single.html">Order our new Red Velvet Cake </a></h5>
+                                    <h5 class="post-title"><a href="blog-single.php">Order our new Red Velvet Cake </a></h5>
                                     <ul class="post-bar">
                                        <li><i class="fa fa-user"></i><a href="#">admin</a></li>
                                        <li><i class="fa fa-comment"></i><a href="#">7</a></li>
                                     </ul>
                                     <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni, nesciunt obcaecati possimus...</p>
                                     <!-- button -->
-                                    <a class="btn btn-primary btn-md" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary btn-md" href="blog-single.php">Read More</a>
                                  </div>
                                  <!--/post-review -->
                               </div>
@@ -444,7 +344,7 @@
                            <div class="col-md-12 p-1">
                               <div class="post-slide box-hover">
                                  <div class="post-img">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                        <!-- Image -->
                                        <img class="img-responsive" src="img/blog/blogprev3.jpg" alt="">
                                        <!--date -->
@@ -456,14 +356,14 @@
                                  </div>
                                  <!-- post info -->
                                  <div class="post-review">
-                                    <h5 class="post-title"><a href="blog-single.html">Order your Valentines day Cake</a></h5>
+                                    <h5 class="post-title"><a href="blog-single.php">Order your Valentines day Cake</a></h5>
                                     <ul class="post-bar">
                                        <li><i class="fa fa-user"></i><a href="#">admin</a></li>
                                        <li><i class="fa fa-comment"></i><a href="#">7</a></li>
                                     </ul>
                                     <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni, nesciunt obcaecati possimus...</p>
                                     <!-- button -->
-                                    <a class="btn btn-primary btn-md" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary btn-md" href="blog-single.php">Read More</a>
                                  </div>
                                  <!--/post-review -->
                               </div>
@@ -474,7 +374,7 @@
                            <div class="col-md-12 p-1">
                               <div class="post-slide  box-hover">
                                  <div class="post-img">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                        <!-- Image -->
                                        <img class="img-responsive" src="img/blog/blogprev4.jpg" alt="">
                                        <!--date -->
@@ -486,14 +386,14 @@
                                  </div>
                                  <!-- post info -->
                                  <div class="post-review">
-                                    <h5 class="post-title"><a href="blog-single.html">Gingerbread decoration workshop</a></h5>
+                                    <h5 class="post-title"><a href="blog-single.php">Gingerbread decoration workshop</a></h5>
                                     <ul class="post-bar">
                                        <li><i class="fa fa-user"></i><a href="#">admin</a></li>
                                        <li><i class="fa fa-comment"></i><a href="#">7</a></li>
                                     </ul>
                                     <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni, nesciunt obcaecati possimus...</p>
                                     <!-- button -->
-                                    <a class="btn btn-primary btn-md" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary btn-md" href="blog-single.php">Read More</a>
                                  </div>
                                  <!--/post-review -->
                               </div>
@@ -504,77 +404,16 @@
                         <!-- alert box -->
                         <div class="alert-bg alert alert-info col-md-12 margin1">
                            <h5>Custom Orders</h5>
-                           <p>Laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.
-                           </p>
-                           <p>Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall Maecenas at arcu risus scelerisque laoree.
+                           <p>We take great pride in understanding and fulfilling bespoke orders. If you have a large order quantity in mind for a special occasion, we would be delighted for you to personally visit us.</P>
+                           <p>You could sample and taste our full ensemble together and then our Master Chocolatier would help you decide your final selection. We would be truly excited to host you to discuss large orders for festivals, weddings, birthdays, anniversaries or appreciation for your business partners or office colleagues. 
                            </p>
                            <!-- button -->
-                           <a class="btn btn-secondary" href="contact.html">Contact us</a>
+                           <a class="btn btn-secondary" href="contact.php">Contact us</a>
                         </div>
                         <!-- /alert -->   
                      </div>
                      <!-- /inside-wrapper -->
                   </section>
-                  <!-- footer -->
-                  <footer class="footer">
-                     <!-- image gradient overlay-->
-                     <div class="gradient-overlay top-to-bottom"></div>
-                     <div class="inside-wrapper container">
-                        <div class="col-md-3 col-md-offset-3">
-                           <div class="brand-footer">
-                              <a href="index.html">
-                              <img src="img/logo.png" alt="" class="img-responsive center-block" >
-                              </a>
-                           </div>
-                        </div>
-                        <div class="col-md-4 margin-footer text-center-sm">
-                           <!-- Logo -->
-                           <p><i class="fas fa-map-marker-alt margin-icon"></i>Street name 123 - New York</p>
-                           <p><i class="fas fa-phone margin-icon"></i>(90) 1234 -5678</p>
-                           <p><i class="far fa-clock margin-icon"></i>Mon-Sat: 9am-5pm</p>
-                           <!--Social icons -->
-                           <div class="social-media ">
-                              <a href="#" title=""><i class="fas fa-envelope"></i></a>
-                              <a href="#" title=""><i class="fab fa-twitter"></i></a>
-                              <a href="#" title=""><i class="fab fa-facebook"></i></a>
-                              <a href="#" title=""><i class="fab fa-instagram"></i></a>
-                           </div>
-                           <!-- /brand -->
-                        </div>
-                        <div class="col-md-12 text-center">
-                           <p class="copy">Copyright 2020 / Designed by <a href="https://www.ingridkuhn.com">Ingrid Kuhn</a></p>
-                        </div>
-                        <!--/ footer-->
-                     </div>
-                     <!-- / inside-wrapper -->
-                     <!-- Go To Top Link -->
-                     <div class="page-scroll">
-                        <a href="#top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
-                     </div>
-                     <!--/page-scroll-->
-                  </footer>
-                  <!-- / footer-->
-               </div>
-               <!-- / content-box -->
-            </div>
-            <!-- /content-wrapper -->
-         </div>
-         <!-- /content -->
-      </div>
-      <!-- /container-fluid -->
-      <!-- Bootstrap core & Jquery -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <!-- Custom Js -->
-      <script src="js/custom.js"></script>
-      <script src="js/plugins.js"></script>
-      <!-- number counter script -->
-      <script src="js/counter.js"></script>
-      <!-- GreenSock -->
-      <script src="vendor/layerslider/js/greensock.js"></script>
-      <!-- LayerSlider script files -->
-      <script src="vendor/layerslider/js/layerslider.transitions.js"></script>
-      <script src="vendor/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
-      <script src="vendor/layerslider/js/layerslider.load.js"></script>
-   </body>
-</html>
+<?php
+include './footer.php';
+?>                  
