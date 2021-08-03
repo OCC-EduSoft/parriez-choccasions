@@ -15,8 +15,8 @@ include './header.php';
                         <h1>Blog</h1>
                         <!-- Breadcrumb -->
                         <ul class="breadcrumb">
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="blog.html">Blog Home</a></li>
+                           <li><a href="index.php">Home</a></li>
+                           <li><a href="blog.php">Blog Home</a></li>
                            <li class="active">Blog Post</li>
                         </ul>
                         <!--/Breadcrumb -->

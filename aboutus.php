@@ -35,7 +35,7 @@ include './header.php';
                         <div class="row">
                            <div class="col-md-5">
                               <!-- image -->
-                              <img class="img-responsive img-rounded center-block" src="img/about/about1.jpg" alt="">
+                              <img class="img-responsive img-rounded center-block" src="img/about/about-2.jpg" alt="">
                            </div>
                            <!-- /col-md-->
                            <div class="col-md-7 res-margin">
@@ -76,7 +76,7 @@ include './header.php';
                                        <i class="counter-icon  flaticon-cake-7"></i>
                                        <!-- insert your final value on data-count= -->
                                        <div class="counter-value" data-count="25">0</div>
-                                       <h4 class="title">Cake Options</h4>
+                                       <h4 class="title">Chocolate Options</h4>
                                     </div>
                                  </div>
                                  <!-- /counter -->
@@ -106,7 +106,7 @@ include './header.php';
                               <div class="row">
                            <div class="col-md-5">
                               <!-- image -->
-                              <img class="img-responsive img-rounded center-block" src="img/about/about1.jpg" alt="">
+                              <img class="img-responsive img-rounded center-block" src="img/about/about-1.jpg" alt="">
                            </div>
                            <!-- /col-md-->
                            <div class="col-md-7 res-margin">
@@ -242,7 +242,7 @@ include './header.php';
                                  <div class="testimonial box-hover">
                                     <div class="content">
                                        <p class="description">
-                                          Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        
+                                          Wish to post the following : Some tastes linger for lifetime...Parriez chocolates is one of them ! Truly world class!!! We presented chocolates in celebration of my son's Zoom wedding in California. They were shipped to family and friends all over India. The "chocoholics" have widely appreciated the appealing looks, subtle flavours and customised packing - all conforming to international standards. Needless to say, this is result of your deep passion and commitment. Here's wishing you every success in your endeavour - may parriez scale even greater heights.                           
                                        </p>
                                     </div>
                                     <!-- /content -->
@@ -251,7 +251,7 @@ include './header.php';
                                     </div>
                                     <!-- /testimonial-pic -->
                                     <div class="testimonial-review">
-                                       <h6 class="testimonial-title">Lucianna Smith</h6>
+                                       <h6 class="testimonial-title">Sanjeev Dhawan</h6>
                                        <span>Teacher</span>
                                     </div>
                                     <!-- /testimonial-review -->
@@ -261,7 +261,7 @@ include './header.php';
                                  <div class="testimonial box-hover">
                                     <div class="content">
                                        <p class="description">
-                                          Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        
+                                          Your Chocolates are out of this world in taste, flavour and visuals, the packaging is amazing and service par excellence. Thank you once again.                        
                                        </p>
                                     </div>
                                     <!-- /content -->
@@ -270,7 +270,7 @@ include './header.php';
                                     </div>
                                     <!-- /testimonial-pic -->
                                     <div class="testimonial-review">
-                                       <h6 class="testimonial-title">John Sadana</h6>
+                                       <h6 class="testimonial-title">Sarita Bhalla</h6>
                                        <span>Doctor</span>
                                     </div>
                                     <!-- /testimonial-review -->
@@ -280,7 +280,7 @@ include './header.php';
                                  <div class="testimonial box-hover">
                                     <div class="content">
                                        <p class="description">
-                                          Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        
+                                          I LOST MY TONGUE WITH YOUR CHOCOLATES ! I JUST LOVE THEM.                        
                                        </p>
                                     </div>
                                     <!-- /content -->
@@ -289,7 +289,7 @@ include './header.php';
                                     </div>
                                     <!-- /testimonial-pic -->
                                     <div class="testimonial-review">
-                                       <h6 class="testimonial-title">Jane Janeth</h6>
+                                       <h6 class="testimonial-title">Inkeri Siekkinen - First lady - Finland Embassy</h6>
                                        <span>Librarian</span>
                                     </div>
                                     <!-- /testimonial-review -->

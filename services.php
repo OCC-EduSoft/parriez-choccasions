@@ -34,13 +34,13 @@ include './header.php';
                         <!-- row -->
                         <div class="row">
                            <div class="col-md-7">
-							 <h2>Cakes for all ocasions</h2>
-							 <p>Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
-							 <p> Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules, Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        </p>
+							 <h2>Chocolates for all ocasions</h2>
+							 <p>We believe that Parriez Handcrafted Gourmet Chocolates bring, charm, grace and happiness to all those personal moments in life when you celebrate with your friends and family. We make fresh chocolates to service orders anywhere in the country. It is our promise that Parriez are always hand crafted under personally supervised conditions, using the finest ingredients, handpicked by our Master Chocolatier. Our chocolates are not available in retail stores. We freshly pack and promptly deliver.</p>
+							 <p>We have conducted extensive blind tests among prospective consumers and connoisseurs using the finest selection of international chocolates.They have consistently rated Parriez to be the preferred brand. We truly believe that sincerity and promise makes us the right partners for you to gift Parriez chocolates, the right token of appreciation for your clients and associates. To personalize your gift besides customozed box, we could also imprint your logo / message on white chocolate.</p>
                            </div>
                            <!-- image -->
                            <div class="col-md-5">
-                              <img class="img-responsive img-rounded center-block" src="img/services/services.jpg" alt="">
+                              <img class="img-responsive img-rounded center-block" src="img/services/order.jpg" alt="">
                            </div>
                         </div>
                         <!--/row -->
@@ -138,74 +138,14 @@ include './header.php';
                            </div>
                         </div>
                         <!-- /owl-carousel -->
-                        <!-- row -->
-                        <div class="row margin1">
-                           <div class="col-md-5">
-                              <h4 class="no-margin-top">Frequently asked questions</h4>
-                              <p>Fusce mollis imperdiet interdum donec eget metus auguen unc, Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-                           </div>
-                           <div class="col-md-7">
-                              <!-- Accordions -->
-                              <div class="panel-group" id="accordion">
-                                 <!-- Question 1 -->
-                                 <div class="panel">
-                                    <div class="panel-heading">
-                                       <h6 class="panel-title">
-                                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Do you offer vegan options?</a>
-                                       </h6>
-                                    </div>
-                                    <!-- /panel-heading -->
-                                    <div id="collapse1" class="panel-collapse collapse in">
-                                       <div class="panel-body">
-                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <!--/panel -->
-                                 <!-- Question 2 -->
-                                 <div class="panel">
-                                    <div class="panel-heading">
-                                       <h6 class="panel-title">
-                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Do you offer catering services?</a>
-                                       </h6>
-                                    </div>
-                                    <!-- /panel-heading -->
-                                    <div id="collapse2" class="panel-collapse collapse">
-                                       <div class="panel-body">
-                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <!--/panel -->
-                                 <!-- Question 3 -->
-                                 <div class="panel">
-                                    <div class="panel-heading">
-                                       <h6 class="panel-title">
-                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">How many days in advance should I order?</a>
-                                       </h6>
-                                    </div>
-                                    <div id="collapse3" class="panel-collapse collapse">
-                                       <div class="panel-body">
-                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <!--/panel -->					 
-                              </div>
-                              <!-- /.accordion -->		
-                           </div>
-                           <!-- /col-md- -->		
-                        </div>
-                        <!-- /row -->		
                         <!-- alert box -->
                         <div class="alert-bg alert alert-info col-md-12 margin1">
                            <h5>Custom Orders</h5>
-                           <p>Laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.
-                           </p>
-                           <p>Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall Maecenas at arcu risus scelerisque laoree.
+                           <p>We take great pride in understanding and fulfilling bespoke orders. If you have a large order quantity in mind for a special occasion, we would be delighted for you to personally visit us.</P>
+                           <p>You could sample and taste our full ensemble together and then our Master Chocolatier would help you decide your final selection. We would be truly excited to host you to discuss large orders for festivals, weddings, birthdays, anniversaries or appreciation for your business partners or office colleagues. 
                            </p>
                            <!-- button -->
-                           <a class="btn btn-secondary" href="contact.html">Contact us</a>
+                           <a class="btn btn-secondary" href="order.php">Know more</a>
                         </div>
                         <!-- /alert -->
                      </div>

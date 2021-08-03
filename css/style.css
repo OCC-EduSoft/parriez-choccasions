@@ -581,7 +581,7 @@ Last change: 11 March 2020
      opacity: 0;
      z-index: 1;
      transition: opacity .3s ease-out;
-     background: rgba(0, 0, 0, 0.53);
+     /*background: rgba(0, 0, 0, 0.53);*/
 }
  .gallery-thumb:hover .overlay-mask {
      opacity: 1;
@@ -1299,7 +1299,7 @@ Last change: 11 March 2020
      margin-bottom: 10px;
 }
  .alert-bg{
-     background-image: url("../img/alertbg.png");
+     background-image: url("../img/11.jpg");
      background-position: bottom right;
      background-repeat:no-repeat;
      padding: 30px 300px 30px 30px;

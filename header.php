@@ -2,14 +2,16 @@
 session_start();
 $pages = array(
     'index.php' => 'Home',
-    'explore.php' => 'The Parriez Story',
-    'about.php' => 'The Parriez Ensemble',
-    'courses.php' => 'How to Order',
+    'services.php' => 'Our Services',
+    'aboutus.php' => 'About',
+    'gallery.php' => 'Gallery',
+    'menu.php' => 'Menu',
+    'blog.php' => 'Blog',
     'contact.php' => 'Contact',
 ) ;
 
 $currentPage = basename($_SERVER['REQUEST_URI']) ;
-?> -->
+?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -21,7 +23,21 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- page title -->
-      <title>Parriez-Choccasions</title>
+      <title>Parriez-Choccasions |
+      <?php 
+      $i=0; 
+      foreach($pages as $filename => $pageTitle) {
+      if ($filename == $currentPage)
+      {
+        $i=1;
+        echo htmlspecialchars($pageTitle);
+      }   
+      
+      }
+      if($i!=1)
+        echo "Home";
+      ?>
+      </title>
       <!--[if lt IE 9]>
       <script src="js/respond.js"></script>
       <![endif]-->
@@ -32,7 +48,8 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
       <!-- Favicons-->
       <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-      <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+      <!-- <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon"> -->
+      <link href="img/fav.jpg" rel="icon">
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <!-- style CSS -->
@@ -83,7 +100,7 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                      <!-- /navbar-header  -->
                      <div class="navbar-collapse collapse sidebar-navbar-collapse ">
                         <ul class="nav navbar-nav" id="sidenav01">
-                           <li class="active"><a href="index.php">Home</a></li>
+                          <!--  <li class="active"><a href="index.php">Home</a></li>
                            <li><a href="services.php">Our Services</a></li>
                            <li><a href="aboutus.php">About Us</a></li>
                            <li><a href="gallery.php">Gallery</a></li>
@@ -97,10 +114,10 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                                  <li><a href="blog-single.php">Blog Single</a></li>
                                  <li><a href="elements.php">Elements page</a></li>
                               </ul>
-                           </li>
-                           <!-- <?php foreach ($pages as $filename => $pageTitle) {
+                           </li> -->
+                           <?php foreach ($pages as $filename => $pageTitle) {
                                         if ($filename == $currentPage) { ?>
-                                    <li class="nav-item">
+                                    <li class="nav-item active">
                                         <a class="active" href="<?php echo $filename ; ?>"><?php echo $pageTitle ; ?></a>
                                     </li>
                                     <?php } else {?>
@@ -109,7 +126,7 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                                     </li>
                                     
                                 <?php }
-                                    }?> -->
+                                    }?>
                         </ul>
                         <!-- navbar-nav -->
                      </div>
@@ -126,6 +143,7 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                   <!--Social icons -->
                   <div class="social-media ">
                      <a href="mailto:contact@parriez.com" title=""><i class="fas fa-envelope"></i></a>
+                     <a href="#" title=""><i class="fab fa-whatsapp"></i></a>
                      <a href="#" title=""><i class="fab fa-twitter"></i></a>
                      <a href="#" title=""><i class="fab fa-facebook"></i></a>
                      <a href="#" title=""><i class="fab fa-instagram"></i></a>

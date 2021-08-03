@@ -31,9 +31,9 @@ include './header.php';
                   <!-- ===== section starts  ===== -->
                   <section class="inside-page">
                      <div class="inside-wrapper container">
-                        <h2>Cakes for all tastes</h2>
-                        <p> Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules, Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        </p>
-                        <p>Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
+                        <h2 class="text-center">THE PARRIEZ ENSEMBLE </h2>
+                        <h4>"There is nothing better than a friend, unless it is a friend with chocolate."</h4>
+                        <p class="text-center">-Linda Grayson</p>
                         <!-- Navigation -->
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs full col-lg-3 margin1 tabs-left" id="myTab">
@@ -73,12 +73,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price1.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price1.jpg" alt="">
+                                                      <a href="img/menu/m1.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m1.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Chocolate cake with frost
+                                                      Alluring Almond
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $50
@@ -91,12 +91,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price2.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price2.jpg" alt="">
+                                                      <a href="img/menu/m2.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m2.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Black forest with strawberries
+                                                      Bashful Butterscotch
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $70
@@ -108,12 +108,12 @@ include './header.php';
                                                 <!-- Item ends --> <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price3.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price3.jpg" alt="">
+                                                      <a href="img/menu/m3.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m3.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Walnut Cake
+                                                      Blackberry Buddy
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $30
@@ -126,12 +126,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price1.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price1.jpg" alt="">
+                                                      <a href="img/menu/m1.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m1.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Chocolate cake with frost
+                                                      Alluring Almond
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $50
@@ -144,12 +144,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price2.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price2.jpg" alt="">
+                                                      <a href="img/menu/m2.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m2.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Black forest with strawberries
+                                                      Bashful Butterscotch
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $70
@@ -162,12 +162,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price3.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price3.jpg" alt="">
+                                                      <a href="img/menu/m3.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m3.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Walnut Cake
+                                                      Blackberry Buddy
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $30
@@ -199,8 +199,8 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price2.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price2.jpg" alt="">
+                                                      <a href="img/menu/m2.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m2.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
@@ -217,8 +217,8 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price1.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price1.jpg" alt="">
+                                                      <a href="img/menu/m1.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m1.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
@@ -234,12 +234,12 @@ include './header.php';
                                                 <!-- Item ends --><!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price3.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price3.jpg" alt="">
+                                                      <a href="img/menu/m3.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m3.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Walnut Cake
+                                                      Blackberry Buddy
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $30
@@ -252,12 +252,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price1.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price1.jpg" alt="">
+                                                      <a href="img/menu/m1.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m1.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Chocolate cake with frost
+                                                      Alluring Almond
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $50
@@ -270,12 +270,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price2.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price2.jpg" alt="">
+                                                      <a href="img/menu/m2.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m2.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Black forest with strawberries
+                                                      Bashful Butterscotch
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $70
@@ -287,12 +287,12 @@ include './header.php';
                                                 <!-- Item ends --> <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price3.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price3.jpg" alt="">
+                                                      <a href="img/menu/m3.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m3.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Walnut Cake
+                                                      Blackberry Buddy
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $30
@@ -324,8 +324,8 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price1.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price1.jpg" alt="">
+                                                      <a href="img/menu/m1.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m1.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
@@ -342,12 +342,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price2.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price2.jpg" alt="">
+                                                      <a href="img/menu/m2.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m2.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Black forest with strawberries
+                                                      Bashful Butterscotch
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $70
@@ -359,8 +359,8 @@ include './header.php';
                                                 <!-- Item ends --> <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price3.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price3.jpg" alt="">
+                                                      <a href="img/menu/m3.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m3.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
@@ -377,12 +377,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price1.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price1.jpg" alt="">
+                                                      <a href="img/menu/m1.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m1.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Chocolate cake with frost
+                                                      Alluring Almond
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $50
@@ -395,12 +395,12 @@ include './header.php';
                                                 <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price2.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price2.jpg" alt="">
+                                                      <a href="img/menu/m2.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m2.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Black forest with strawberries
+                                                      Bashful Butterscotch
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $70
@@ -412,12 +412,12 @@ include './header.php';
                                                 <!-- Item ends --> <!-- Item starts -->
                                                 <div class="menu-item">
                                                    <div class="menu-item-pic lightbox">
-                                                      <a href="img/menu/price3.jpg">
-                                                      <img class="img-responsive img-circle img-price" src="img/menu/price3.jpg" alt="">
+                                                      <a href="img/menu/m3.jpg">
+                                                      <img class="img-responsive img-circle img-price" src="img/menu/m3.jpg" alt="">
                                                       </a>
                                                    </div>
                                                    <div class="menu-item-name">
-                                                      Walnut Cake
+                                                      Blackberry Buddy
                                                    </div>
                                                    <div class="menu-item-price">
                                                       $30

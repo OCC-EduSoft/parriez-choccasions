@@ -1,14 +1,108 @@
+<?php
+$pages = array(
+    'index.php' => 'Home',
+    'services.php' => 'Our Services',
+    'aboutus.php' => 'About',
+    'gallery.php' => 'Gallery',
+    'menu.php' => 'Menu',
+    'blog.php' => 'Blog',
+    'contact.php' => 'Contact',
+) ;
+
+$currentPage = basename($_SERVER['REQUEST_URI']) ;
+?>
 <!-- footer -->
+               <section class="inside-page">
+                     <div class="inside-wrapper container">
+                        <div class="row">
+                           <div class="col-md-5">
+                              <h4 class="no-margin-top">Frequently asked questions</h4>
+                              <p>Fusce mollis imperdiet interdum donec eget metus auguen unc, Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
+                           </div>
+                           <div class="col-md-7">
+                              <!-- Accordions -->
+                              <div class="panel-group" id="accordion">
+                                 <!-- Question 1 -->
+                                 <div class="panel">
+                                    <div class="panel-heading">
+                                       <h6 class="panel-title">
+                                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Do you offer vegan options?</a>
+                                       </h6>
+                                    </div>
+                                    <!-- /panel-heading -->
+                                    <div id="collapse1" class="panel-collapse collapse in">
+                                       <div class="panel-body">
+                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!--/panel -->
+                                 <!-- Question 2 -->
+                                 <div class="panel">
+                                    <div class="panel-heading">
+                                       <h6 class="panel-title">
+                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Do you offer catering services?</a>
+                                       </h6>
+                                    </div>
+                                    <!-- /panel-heading -->
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                       <div class="panel-body">
+                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!--/panel -->
+                                 <!-- Question 3 -->
+                                 <div class="panel">
+                                    <div class="panel-heading">
+                                       <h6 class="panel-title">
+                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">How many days in advance should I order?</a>
+                                       </h6>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                       <div class="panel-body">
+                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!--/panel -->              
+                              </div>
+                              <!-- /.accordion -->    
+                           </div>
+                           <!-- /col-md- -->    
+                        </div>
+                        <!-- /row -->     
+                     </div>
+                     <!-- /inside-wrapper -->
+                  </section>
                   <footer class="footer">
                      <!-- image gradient overlay-->
                      <div class="gradient-overlay top-to-bottom"></div>
                      <div class="inside-wrapper container">
-                        <div class="col-md-4 col-md-offset-2">
+                        <div class="col-md-5">
                            <div class="brand-footer">
                               <a href="index.php">
-                              <img src="img/logo.png" alt="" class="img-responsive center-block" >
+                              <img src="img/logo.png" alt="" class="img-responsive" style="margin-top:40px" >
                               </a>
                            </div>
+                        </div>
+                        <div class="col-md-3 margin-footer text-center-sm">
+                           <div class="row">
+                                 <ul class="custom categories">
+                                    <?php foreach ($pages as $filename => $pageTitle) {
+                                        if ($filename == $currentPage) { ?>
+                                    <li class="nav-item active">
+                                        <a class="active" href="<?php echo $filename ; ?>"><?php echo $pageTitle ; ?></a>
+                                    </li>
+                                    <?php } else {?>
+                                    <li class="nav-item">
+                                         <a href="<?php echo $filename ; ?>"><?php echo $pageTitle ; ?></a>
+                                    </li>
+                                    
+                                <?php }
+                                    }?>
+                                 </ul>
+                              </div>
                         </div>
                         <div class="col-md-4 margin-footer text-center-sm">
                            <!-- Logo -->
@@ -19,6 +113,7 @@
                            <!--Social icons -->
                            <div class="social-media ">
                               <a href="#" title=""><i class="fas fa-envelope"></i></a>
+                              <a href="#" title=""><i class="fab fa-whatsapp"></i></a>
                               <a href="#" title=""><i class="fab fa-twitter"></i></a>
                               <a href="#" title=""><i class="fab fa-facebook"></i></a>
                               <a href="#" title=""><i class="fab fa-instagram"></i></a>

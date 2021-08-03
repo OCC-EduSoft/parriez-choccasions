@@ -15,7 +15,7 @@ include './header.php';
                         <h1>Blog</h1>
                         <!-- Breadcrumb -->
                         <ul class="breadcrumb">
-                           <li><a href="index.html">Home</a></li>
+                           <li><a href="index.php">Home</a></li>
                            <li class="active">Blog</li>
                         </ul>
                         <!--/Breadcrumb -->
@@ -43,7 +43,7 @@ include './header.php';
                                  </div>
                                  <!-- blog image -->
                                  <div class="img-blog">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                     <img class="img-responsive" src="img/blog/blog2.jpg" alt="">
                                     </a>
                                  </div>
@@ -51,7 +51,7 @@ include './header.php';
                               <div class="col-md-12">
                                  <!-- Post header -->
                                  <h2>
-                                    <a href="blog-single.html">Order our new Red Velvet Cake</a>
+                                    <a href="blog-single.php">Order our new Red Velvet Cake</a>
                                  </h2>
                                  <div class="post-info">
                                     <!-- Post Author -->
@@ -61,7 +61,7 @@ include './header.php';
                                  </div>
                                  <!-- Post Excerpt -->
                                  <p>Lorem perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero. ipsum dolor sit amet commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                 <a class="btn" href="blog-single.html">Read More <i class="fa fa-angle-right"></i></a>
+                                 <a class="btn" href="blog-single.php">Read More <i class="fa fa-angle-right"></i></a>
                               </div>
                            </div>
                            <!-- /.row -->
@@ -75,7 +75,7 @@ include './header.php';
                                  </div>
                                  <!-- blog image -->
                                  <div class="img-blog">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                     <img class="img-responsive" src="img/blog/blog1.jpg" alt="">
                                     </a>
                                  </div>
@@ -83,7 +83,7 @@ include './header.php';
                               <div class="col-md-12">
                                  <!-- Post header -->
                                  <h2>
-                                    <a href="blog-single.html">The best Pastries for easter time</a>
+                                    <a href="blog-single.php">The best Pastries for easter time</a>
                                  </h2>
                                  <div class="post-info">
                                     <!-- Post Author -->
@@ -93,7 +93,7 @@ include './header.php';
                                  </div>
                                  <!-- Post Excerpt -->
                                  <p>Lorem perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero. ipsum dolor sit amet commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                 <a class="btn" href="blog-single.html">Read More <i class="fa fa-angle-right"></i></a>
+                                 <a class="btn" href="blog-single.php">Read More <i class="fa fa-angle-right"></i></a>
                               </div>
                            </div>
                            <!-- /.row -->
@@ -107,7 +107,7 @@ include './header.php';
                                  </div>
                                  <!-- blog image -->
                                  <div class="img-blog">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                     <img class="img-responsive" src="img/blog/blog3.jpg" alt="">
                                     </a>
                                  </div>
@@ -115,7 +115,7 @@ include './header.php';
                               <div class="col-md-12">
                                  <!-- Post header -->
                                  <h2>
-                                    <a href="blog-single.html">Gingerbread decoration Workshop</a>
+                                    <a href="blog-single.php">Gingerbread decoration Workshop</a>
                                  </h2>
                                  <div class="post-info">
                                     <!-- Post Author -->
@@ -125,7 +125,7 @@ include './header.php';
                                  </div>
                                  <!-- Post Excerpt -->
                                  <p>Lorem perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero. ipsum dolor sit amet commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                 <a class="btn" href="blog-single.html">Read More <i class="fa fa-angle-right"></i></a>
+                                 <a class="btn" href="blog-single.php">Read More <i class="fa fa-angle-right"></i></a>
                               </div>
                            </div>
                            <!-- /.row -->

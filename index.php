@@ -16,7 +16,7 @@ include './header.php';
                            <h1><span>Welcome to</span> <br/>Parriez Choccassions</h1>
                            <p class="header-p">HANDCRAFTED GOURMET CHOCOLATES</p>
                            <div class="hidden-small">
-                              <a class="btn btn-primary" href="menu.php">Our Menu</a>
+                              <a class="btn btn-primary" href="#season">Read more</a>
                            </div>
                            <!--/hidden-small -->
                         </div>
@@ -35,7 +35,7 @@ include './header.php';
                            <h1>The Parriez Story</h1>
                            <p class="header-p">Chocolate Makes Everything Better... </p>
                            <!--the div below is hidden on small screens  -->
-                           <div class="hidden-small"><a class="btn btn-primary" href="contact.php">Contact us</a>
+                           <div class="hidden-small"><a class="btn btn-primary" href="aboutus.php">Read more</a>
                            </div>
                            <!--/hidden-small -->
                         </div>
@@ -75,7 +75,7 @@ include './header.php';
                            <p class="header-p"></p>
                            <!--the div below is hidden on small screens  -->
                            <div class="hidden-small">              
-                              <a class="btn btn-primary" href="contact.php">See Our Journey</a>
+                              <a class="btn btn-primary" href="gallery.php">See Our Journey</a>
                            </div>
                            <!--/hidden-small -->
                         </div>
@@ -90,24 +90,24 @@ include './header.php';
                <div class="divider-top divider-home" ></div>
                <!-- /divider-home -->
                <!-- ===== content-box starts  ===== -->
-               <div class="content-box container">
+               <div id="season" class="content-box container">
                   <section class="inside-page">
                      <div class="inside-wrapper container">
                         <div class="col-md-12">
                            <h2 class="text-center-sm">The Festive Season</h2>
-                           <img class="img-responsive img-rounded pull-right-lg col-md-4 center-block" src="img/services/services-home.jpg" alt="">
+                           <img class="img-responsive img-rounded pull-right-lg col-md-4 center-block" src="img/services/service-1.jpg" alt="">
                            <p class="lead res-margin">We would be delighted to discuss your requirements for the Durga Puja, Diwali, Christmas, New Year celebrations. We would customize the chocolate ensemble and mix to suit your requirement.</p>
                            <p> We can execute large orders while retaining the charm of personalized touch. On your request we would arrange to deliver the chocolates to your friends and associates anywhere within the country. Please allow us 2 weeks to plan and execute large orders if the quantity exceeds 100 boxes.</p>
                         </div>
                         <div class="col-md-12">
-                           <img class="img-responsive img-rounded pull-left-lg col-md-4 center-block" src="img/services/services-home.jpg" alt="" style="margin-top:80px">
+                           <img class="img-responsive img-rounded pull-left-lg col-md-4 center-block" src="img/services/service-2.jpg" alt="" style="margin-top:80px">
                            <h2 class="text-md-right">Personal Celebrations</h2>
                            <p class="lead res-margin">We believe that Parriez Handcrafted Gourmet Chocolates bring, charm, grace and happiness to all those personal moments in life when you celebrate with your friends and family.</p>
                            <p>We make fresh chocolates to service orders anywhere in the country. It is our promise that Parriez are always hand crafted under personally supervised conditions, using the finest ingredients, handpicked by our Master Chocolatier. Our chocolates are not available in retail stores. We freshly pack and promptly deliver.</p>
                         </div>
                         <div class="col-md-12">
                            <h2 class="text-center-sm" style="margin-top:20px">For Clients & Colleagues</h2>
-                           <img class="img-responsive img-rounded pull-right-lg col-md-4 center-block" src="img/services/services-home.jpg" alt="">
+                           <img class="img-responsive img-rounded pull-right-lg col-md-4 center-block" src="img/services/service-3.jpg" alt="">
                            <p class="lead res-margin">We have conducted extensive blind tests among prospective consumers and connoisseurs using the finest selection of international chocolates.</p>
                            <p> They have consistently rated Parriez to be the preferred brand. We truly believe that sincerity and promise makes us the right partners for you to gift Parriez chocolates, the right token of appreciation for your clients and associates. To personalize your gift besides customozed box, we could also imprint your logo / message on white chocolate.</p>
                         </div>
@@ -228,8 +228,8 @@ include './header.php';
                                        <h3 class="text-center-sm">Why Choose us?</h3>
                                        <!-- about carousel -->
                                        <p>Conceived by Praveen (PARRY), a marine engineer by qualification and a chocolate aficionado at heart, <strong>“PARRIEZ - Gourmet Handcrafted Chocolates”</strong>creates handcrafted chocolate truffles and soft-centered pralines.</p>
-                              <p>Prepared with the best ingredients and a wide range of tempting flavors, these chocolates are cauldron-fresh and a gourmet’s delight.</p>
-                              <p><strong>PARRIEZ</strong> chocolates can also be presented in custom packages to match your special occasions. Unravel infinite possibilities to indulge yourself.</p>
+                                       <p>Prepared with the best ingredients and a wide range of tempting flavors, these chocolates are cauldron-fresh and a gourmet’s delight.</p>
+                                       <p><strong>PARRIEZ</strong> chocolates can also be presented in custom packages to match your special occasions. Unravel infinite possibilities to indulge yourself.</p>
                                     </div>
                                     <!-- /tab-pane -->
                                     <div class="tab-pane fade" id="B">
@@ -408,7 +408,7 @@ include './header.php';
                            <p>You could sample and taste our full ensemble together and then our Master Chocolatier would help you decide your final selection. We would be truly excited to host you to discuss large orders for festivals, weddings, birthdays, anniversaries or appreciation for your business partners or office colleagues. 
                            </p>
                            <!-- button -->
-                           <a class="btn btn-secondary" href="contact.php">Contact us</a>
+                           <a class="btn btn-secondary" href="order.php">Know more</a>
                         </div>
                         <!-- /alert -->   
                      </div>
