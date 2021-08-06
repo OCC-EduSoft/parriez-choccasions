@@ -425,16 +425,15 @@ else if ($type == "post_feedback") {
     else
       $data = array("success" => 2);
 }
-else if ($type == "fetch_feedback") {
-  $sql="SELECT f.*,u.name,u.course_id FROM `feedback` AS f INNER JOIN `users` AS u ON u.id=f.user_id";
+else if ($type == "fetch_faqs") {
+  $sql="SELECT * FROM `faqs`";
   $result=mysqli_query($conn,$sql);
+  // echo json_encode($result);
+  // exit();
     $i=1;
     while($value= mysqli_fetch_assoc($result)) {
        // $data['data'][] = ["id" =>$i,"title" => $value['title'],"date" => $value['date'],"uid"=>$value['id']];
-      $sql1="SELECT * FROM `class` Where id=".$value['course_id'];
-      $result1=mysqli_query($conn,$sql);
-      $row=mysqli_fetch_array($result1);
-      $data['data'][] = array($i,$value['name'],$row['name'],$value['description'],$value['date']);
+      $data['data'][] = array($i,$value['question'],$value['answer'],$value['status'],$value['id']);
       $i=$i+1;
     }
 }

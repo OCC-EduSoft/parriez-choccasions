@@ -1,17 +1,20 @@
 <?php
 include './partials/dash-header.php';
-$sql11c="SELECT * FROM `users` Where course_id='1'";
-$result11c=mysqli_query($conn,$sql11c);
-$s11=mysqli_num_rows($result11c);
+$sql_item="SELECT * FROM `items`";
+$result_item=mysqli_query($conn,$sql_item);
+$total_item=mysqli_num_rows($result_item);
 
-$sql12c="SELECT * FROM `users` Where course_id='2'";
-$result12c=mysqli_query($conn,$sql12c);
-$s12=mysqli_num_rows($result12c);
+$sql_products="SELECT * FROM `products`";
+$result_product=mysqli_query($conn,$sql_products);
+$total_product=mysqli_num_rows($result_product);
 
-$sql_total="SELECT * FROM `users`";
-$total_result=mysqli_query($conn,$sql_total);
-$total=mysqli_num_rows($total_result);
+$sql_sizes="SELECT * FROM `sizes`";
+$result_sizes=mysqli_query($conn,$sql_sizes);
+$total_sizes=mysqli_num_rows($result_sizes);
  
+$sql_faq="SELECT * FROM `faqs`";
+$result_faqs=mysqli_query($conn,$sql_faq);
+$total_faqs=mysqli_num_rows($result_faqs);
  
 ?>
 
@@ -35,10 +38,6 @@ $total=mysqli_num_rows($total_result);
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-    <?php
-        if($row3['user_role']==1)
-     {
-    ?>
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
@@ -48,9 +47,9 @@ $total=mysqli_num_rows($total_result);
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3><?php echo $s11; ?></h3>
+                <h3><?php echo $total_item; ?></h3>
 
-                <p>11<sup>th</sup> Students</p>
+                <p>No of Items</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -63,9 +62,9 @@ $total=mysqli_num_rows($total_result);
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3><?php echo $s12; ?></sup></h3>
+                <h3><?php echo $total_product; ?></sup></h3>
 
-                <p>12<sup>th</sup> Students</p>
+                <p> No of Products</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -78,9 +77,9 @@ $total=mysqli_num_rows($total_result);
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3><?php echo $total; ?></h3>
+                <h3><?php echo $total_sizes; ?></h3>
 
-                <p>Total Students</p>
+                <p>No of Sizes</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -93,9 +92,9 @@ $total=mysqli_num_rows($total_result);
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>0</h3>
+                <h3><?php echo $total_faqs;?></h3>
 
-                <p>Total Revenue</p>
+                <p>No of faqs</p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>
@@ -243,103 +242,6 @@ $total=mysqli_num_rows($total_result);
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
-    <?php
-  }
-  else{
-  ?>
-    <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <!-- /.row -->
-        <!-- Main row -->
-        <div class="row">
-          <!-- Left col -->
-          <section class="col-lg-12 connectedSortable">
-            <!-- Custom tabs (Charts with tabs)-->
-            <div class="card bg-primary">
-              <div class="card-body">
-                <div class="tab-content p-0">
-                  <!-- Morris chart - Sales -->
-                  <div class="row py-0 px-2">
-                    <div class="col-md-4">
-                      <h5 class="mb-0">Hi,<?php echo substr($row3['name'], 0, 20);?></h5></a>
-                    </div>
-                    <div class="col-md-4">
-                      <h5 class="mb-0">Class:<?php echo $row3['class'];?></h5></a>
-                    </div>
-                    <div class="col-md-4">
-                      <?php
-                      $date=$row3['date'];
-                      ?>
-                      <h5 class="mb-0">Join Date: <?php echo date("dS M Y", strtotime($date));?></h5></a>
-                    </div>
-                    </div>
-                  </div>
-              </div><!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-          </section>
-          <!-- right col -->
-        </div>
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
-    </section>
-     <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <!-- /.row -->
-        <!-- Main row -->
-        <div class="row">
-          <!-- Left col -->
-          <section class="col-lg-12 connectedSortable">
-            <!-- Custom tabs (Charts with tabs)-->
-            <div class="card pb-3">
-              <div class="card-body">
-                <div class="tab-content p-0">
-                  <!-- Morris chart - Sales -->
-                  <div class="row px-2">
-                    <div class="col-md-7">
-                      <h5 class="mb-0"><b>Dashboard features:</b></h5>
-                      <ul>
-                        <li>
-                          <h6>It provides you with study materials like textbooks, Practical books, Reference books, Notes, Exercises, Model question papers in the form of PDF format.</h6>
-                        </li>
-                        <li>
-                          <h6>HSC board previous Exam question Papers</h6>
-                        </li>
-                        <li>
-                          <h6>Model Question Papers with answers</h6>
-                        </li>
-                        <li>
-                          <h6>Model MCQ’s Papers & their answer keys</h6>
-                        </li>
-                        <li>
-                          <h6>Online MCQ Tests.</h6>
-                        </li>
-                        <li>
-                          <h6>MHTCET, NEET, JEE study materials, MOCK Tests, JEE Quizes.</h6>
-                        </li>
-                        <li>
-                          <h6>And last but not the least, Career guidance and counseling for all students.</h6>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-5">
-                      <h5 class=""><b>Intro Video</b></h5>
-                      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4oN5JShOs2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    </div>
-                  </div>
-              </div><!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-          </section>
-          <!-- right col -->
-        </div>
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
-    </section>
-  <?php }?>
   </div>
   <!-- /.content-wrapper -->
 

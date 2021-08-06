@@ -8,12 +8,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Feedback</h1>
+            <h1 class="m-0">FAQs</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Feedback</li>
+              <li class="breadcrumb-item active">FAQs</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -21,60 +21,8 @@
     </div>
     <!-- /.content-header -->
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <!-- /.row -->
-        <!-- Main row -->
-        <div class="row">
-          <!-- Left col -->
-          <section class="col-lg-12 connectedSortable">
-            <!-- Custom tabs (Charts with tabs)-->
-            <div class="card">
-              <!-- <div class="card-header">
-                <h3 class="card-title">
-                  <i class="fas fa-chart-pie mr-1"></i>
-                  Sales
-                </h3>
-                <div class="card-tools">
-                  <ul class="nav nav-pills ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#revenue-chart" data-toggle="tab">Area</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#sales-chart" data-toggle="tab">Donut</a>
-                    </li>
-                  </ul>
-                </div>
-              </div> --><!-- /.card-header -->
-              <div class="card-body">
-                <div class="tab-content p-0">
-                  <!-- Morris chart - Sales -->
-                  <div class="row">
-                    <div class="col-md-6 container-fluid">
-                       <form id="postfb" method="POST">
-                          <div class="form-group">
-                            <input type="text" name="notification_text" id="ft" required class="form-control" placeholder="Enter feedback">
-                          </div>
-                          <div class="my-3">
-                            <input type="submit" name="POST" class="btn btn-primary" value="Post">
-                          </div>
-                        </form>
-
-                      </div>
-                  </div>
-              </div><!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-          </section>
-          <!-- right col -->
-        </div>
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
-    </section>
+    <!-- Main content --->
     <!-- /.content -->
-    <?php if($row3['user_role']==1){ ?>
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
@@ -87,8 +35,8 @@
             <div class="card col-md-12">
               <div class="card-header my-2" style="border-bottom: none;">
                 <h3 class="card-title">
-                  <i class="fas fa-bell "></i>
-                  Feedback
+                  <i class="fas fa-comments "></i>
+                  FAQs
                 </h3>
               </div> <!-- /.card-header
               <div class="card-body">
@@ -98,19 +46,19 @@
                     <table class="table display table-striped table-bordered nowrap text-center col-md-12" id="ft_table" style="width: 100%; ">
                       <thead>
                         <th>Sr.No</th>
-                        <th>Name</th>
-                        <th>Class</th>
-                        <th>feedback</th>
-                        <th>date</th>
+                        <th>Questions</th>
+                        <th>Answers</th>
+                        <th>Status</th>
+                        <th>Action</th>
                       </thead>
                       <tbody>
                       </tbody>
                       <tfoot>
                         <th>Sr.No</th>
-                        <th>Name</th>
-                        <th>Class</th>
-                        <th>feedback</th>
-                        <th>date</th>
+                        <th>Questions</th>
+                        <th>Answers</th>
+                        <th>Status</th>
+                        <th>Action</th>
                       </tfoot>
                     </table>
                   </div>
@@ -124,7 +72,6 @@
         <!-- /.row (main row) -->
       </div><!-- /.container-fluid -->
     </section>
-  <?php }?>
   </div>
   <!-- /.content-wrapper -->
 <?php
@@ -155,7 +102,7 @@ $(document).ready(function() {
     table = $('#ft_table').DataTable({
             "destroy": true,
             "order": [
-                [1, "desc"]
+                [1, "asc"]
             ],
             "language": {
                 "thousands": "'",
@@ -165,7 +112,7 @@ $(document).ready(function() {
                 "url": "./backend/data.php",
                 "type": "POST",
                 "data": {
-                    "type": "fetch_feedback",
+                    "type": "fetch_faqs",
             }
         },
         rowCallback: function (row,data) {
@@ -182,52 +129,6 @@ $(document).ready(function() {
         
     });
   });
-  $('#postfb').on('submit', function(e) {
-        loader();
-        
-        $.ajax({
-            url: './backend/data.php',
-            type: 'POST',
-            dataType: 'json',
-            data:{
-              type:"post_feedback",
-              ft:$('#ft').val()
-            },
-            success: function(data) {
-              console.log(data);
-                $.unblockUI();
-                // console.log('1')
-                if(data['success'] == 1){
-                  // console.log('2')
-                    //alert('success');
-                    toastr.success(data['message'], "Success");
-                    $("#postfb").trigger("reset");
-                   table.ajax.reload();
-                }
-                if(data['success'] == 0){
-                  // console.log('3')
-                    // alert('failure');
-                    toastr.success(data['message'], "something went wrong");
-                    $("#postfb").trigger("reset");
-                    table.ajax.reload();
-                }
-                if(data['success'] == 2){
-                   // console.log('3')
-                    // alert('warning');
-                    toastr.success(data['message'], "title should not be empty");
-                    $("#postfb").trigger("reset");
-                    table.ajax.reload();
-                }
-            },
-             error: function (response) {
-        console.log("Error")
-        console.log(response)
-      }
-        });    
-        
-        return false;
-        
-    });
 </script>
 </body>
 </html>

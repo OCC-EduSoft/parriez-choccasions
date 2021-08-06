@@ -3,9 +3,9 @@ session_start();
 include './../connection.php';
 if (isset($_SESSION['id'])) {
   $sid=$_SESSION['id'];
-   // $sql="SELECT u.*,c.name AS class FROM `users` as u INNER JOIN `class` as c ON u.course_id=c.id Where u.id='$sid'";
-   // $result1=mysqli_query($conn,$sql);
-   // $row3=mysqli_fetch_array($result1);
+   $sql="SELECT * FROM `users` WHERE id='$sid'";
+   $result1=mysqli_query($conn,$sql);
+   $row3=mysqli_fetch_array($result1);
    $dirname=$_SERVER['PHP_SELF'];
 }
 else{
@@ -17,8 +17,8 @@ else{
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MdEduChem | Dashboard</title>
-  <link rel="shortcut icon" href="./../images/logo.png" type="image/png">
+  <title>Parriez | Dashboard</title>
+  <link rel="shortcut icon" href="./../img/logo.png" type="image/png">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -177,7 +177,7 @@ else{
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index.php" class="brand-link">
-      <img src="./../images/logo.png" alt="AdminLTE Logo" class="brand-image">
+      <img src="./../img/logo.png" alt="AdminLTE Logo" class="brand-image">
       <span class="brand-text font-weight-light">Parriez</span>
     </a>
 
@@ -212,16 +212,34 @@ else{
                with font-awesome or any other icon font library -->
           <li class="nav-item">
             <a href="./uploadfile.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/uploadfile.php") { echo 'active'; } else{ echo 'ul';} ?>">
-              <i class="fa fa-upload nav-icon"></i>
-              <p>Add Products</p>
+              <i class="fa fa-cubes nav-icon"></i>
+              <p>Items</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./uploadfile.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/uploadfile.php") { echo 'active'; } else{ echo 'ul';} ?>">
+              <i class="fa fa-cubes nav-icon"></i>
+              <p>Products</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./uploadfile.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/uploadfile.php") { echo 'active'; } else{ echo 'ul';} ?>">
+              <i class="far fa-square nav-icon"></i>
+              <p>Sizes</p>
+            </a>
+          </li>
+          <!-- <li class="nav-item ">
+            <a href="./all-material.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/all-material.php") { echo 'active'; } else{ echo 'ul';} ?>">
+              <i class="fa fa-book nav-icon"></i>
+              <p></p>
             </a>
           </li>
           <li class="nav-item ">
             <a href="./all-material.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/all-material.php") { echo 'active'; } else{ echo 'ul';} ?>">
               <i class="fa fa-book nav-icon"></i>
-              <p>ALL Products</p>
+              <p>ALL Prodcts</p>
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
               <a href="./feedback.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/feedback.php") { echo 'active'; } else{ echo 'ul';} ?>">
                 <i class="fa fa-comments nav-icon"></i>
