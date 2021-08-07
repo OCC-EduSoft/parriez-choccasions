@@ -52,7 +52,7 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                            <!--Social icons -->
                            <div class="social-media ">
                               <a href="mailto:contact@parriez.com" title=""><i class="fas fa-envelope"></i></a>
-                              <a href="https://api.whatsapp.com/send?phone=+919960304794" target="_blank" title=""><i class="fab fa-whatsapp"></i></a>
+                              <a href="https://api.whatsapp.com/send?phone=+919953359003" target="_blank" title=""><i class="fab fa-whatsapp"></i></a>
                               <a href="https://twitter.com/ParriezChocola1" target="_blank" title=""><i class="fab fa-twitter"></i></a>
                               <a href="https://www.facebook.com/parriez/" target="_blank" title=""><i class="fab fa-facebook"></i></a>
                               <a href="https://www.instagram.com/parriez_chocolates/" target="_blank" title=""><i class="fab fa-instagram"></i></a>
@@ -80,7 +80,7 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
          <ul>
             <li class="page-scroll">
                <a href="#top" class="back-to-top"><i class="fa fa-angle-up"></i></a></li>
-            <li><a href="https://api.whatsapp.com/send?phone=+919960304794" class="float" target="_blank"><i class="fab fa-whatsapp"style="font-size:24px"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=+919953359003" class="float" target="_blank"><i class="fab fa-whatsapp"style="font-size:24px"></i></a></li>
             <li><a href="tel:+919953359003" class="float" style="position:fixed;width:35px;height:35px;bottom:128px;right:19px;background-color:blue;color:#FFF;border-radius:50px;text-align:center;font-size:22px;box-shadow: 2px 2px 3px #999;z-index:100;"><i class="fas fa-phone-alt  my-float"style="color: white;margin-left:1px; margin-bottom:20px !important;font-size: 20px;"></i></a></li>
          </ul>
       
@@ -99,5 +99,31 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
       <script src="vendor/layerslider/js/layerslider.transitions.js"></script>
       <script src="vendor/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
       <script src="vendor/layerslider/js/layerslider.load.js"></script>
+      <script>
+   $("#faqform").on('submit',function(e){
+
+        // loader();
+        
+        $.ajax({
+            url: './Dashboard/backend/data.php',
+            type: 'POST',
+            dataType: 'json',
+            data: {
+                type: "uploadfaqs",
+                question: $("#question").val()
+            },
+            success: function(data) {
+                // $.unblockUI();
+                
+                if(data['success'] == 1){
+                    console.log('data uploded successfully!');
+                }
+            },
+        });    
+        
+        return false;
+        
+    });
+</script>
    </body>
 </html>

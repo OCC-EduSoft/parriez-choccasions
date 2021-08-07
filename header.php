@@ -145,7 +145,7 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                   <!--Social icons -->
                   <div class="social-media ">
                      <a href="mailto:contact@parriez.com" title=""><i class="fas fa-envelope"></i></a>
-                     <a href="https://api.whatsapp.com/send?phone=+919960304794" target="_blank" title=""><i class="fab fa-whatsapp"></i></a>
+                     <a href="https://api.whatsapp.com/send?phone=+919953359003" target="_blank" title=""><i class="fab fa-whatsapp"></i></a>
                      <a href="https://twitter.com/ParriezChocola1" target="_blank" title=""><i class="fab fa-twitter"></i></a>
                      <a href="https://www.facebook.com/parriez/" target="_blank" title=""><i class="fab fa-facebook"></i></a>
                      <a href="https://www.instagram.com/parriez_chocolates/" target="_blank" title=""><i class="fab fa-instagram"></i></a>

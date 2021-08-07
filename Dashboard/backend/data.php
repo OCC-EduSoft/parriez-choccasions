@@ -510,5 +510,19 @@ else if ($type == "contact") {
            // $data= array("success" => 0);
           //}
 }
+else if ($type=="uploadfaqs") {
+  // code...
+  $question=$_POST['question'];
+  $sql="INSERT INTO `faqs`(`question`, `status`) VALUES ('$question','Pending')";
+  $result=mysqli_query($conn,$sql);
+  if($result)
+  {
+    $data=array("success" => 1);
+  }
+  else{
+    $data=array("success" => 0);
+  }
+}
+ echo json_encode($data)
   echo json_encode($data);
 ?>

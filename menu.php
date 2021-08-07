@@ -35,6 +35,79 @@ include './header.php';
                         <h4>"There is nothing better than a friend, unless it is a friend with chocolate."</h4>
                         <p class="text-center">-Linda Grayson</p>
                         <!-- Navigation -->
+                        
+                        <div class="row">
+                           <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/m1.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/m1.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h5>Alluring Almond</h5>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/m1.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/m1.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h5>Alluring Almond</h5>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/m1.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/m1.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h5>Alluring Almond</h5>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/m1.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/m1.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h5>Alluring Almond</h5>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+
+                           </div>
+                           <!-- row -->
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs full col-lg-3 margin1 tabs-left" id="myTab">
                            <li class="active">
