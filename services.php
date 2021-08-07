@@ -40,7 +40,7 @@ include './header.php';
                            </div>
                            <!-- image -->
                            <div class="col-md-5">
-                              <img class="img-responsive img-rounded center-block" src="img/services/order.jpg" alt="">
+                              <img class="img-responsive img-rounded center-block py-3" src="img/services/order.png" alt="">
                            </div>
                         </div>
                         <!--/row -->
@@ -139,7 +139,7 @@ include './header.php';
                         </div>
                         <!-- /owl-carousel -->
                         <!-- alert box -->
-                        <div class="alert-bg alert alert-info col-md-12 margin1">
+                        <div class="alert-bg alert alert-info col-md-12 margin1"  style="background-image: url(img/order.jpg);">
                            <h5>Custom Orders</h5>
                            <p>We take great pride in understanding and fulfilling bespoke orders. If you have a large order quantity in mind for a special occasion, we would be delighted for you to personally visit us.</P>
                            <p>You could sample and taste our full ensemble together and then our Master Chocolatier would help you decide your final selection. We would be truly excited to host you to discuss large orders for festivals, weddings, birthdays, anniversaries or appreciation for your business partners or office colleagues. 

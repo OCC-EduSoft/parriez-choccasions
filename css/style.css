@@ -960,7 +960,7 @@ Last change: 11 March 2020
      overflow: hidden;
      font-weight:700;
      color:#fff!important;
-     margin-top: 20px;
+     margin-top: 10px;
      text-decoration: none;
      -webkit-transition: 0.5s all ease;
      transition: 0.5s ease all;
@@ -1299,7 +1299,6 @@ Last change: 11 March 2020
      margin-bottom: 10px;
 }
  .alert-bg{
-     background-image: url("../img/11.jpg");
      background-position: bottom right;
      background-repeat:no-repeat;
      padding: 30px 300px 30px 30px;
@@ -2039,4 +2038,20 @@ Last change: 11 March 2020
          width: 50%!important;
     }
 }
+
+.float{
+  position:fixed;
+  width:35px;
+  height:35px;
+  bottom:85px;
+  right:19px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:24px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
  

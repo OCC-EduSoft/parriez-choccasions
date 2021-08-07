@@ -92,7 +92,7 @@ include './header.php';
                         </div>
                         <!-- /row contact-boxes-->
                         <div class="row margin1" >
-                           <div class="col-md-7">
+                           <div class="col-md-7 p-1">
                               <!-- contact info -->
                               <div class="contact-info">
                                  <h4 class="title no-margin-top">Write us a Message</h4>
@@ -133,9 +133,9 @@ include './header.php';
                               <!-- /contact-info -->
                            </div>
                            <!-- /col-md- -->
-                           <div class="col-md-5">
+                           <div class="col-md-5 p-1">
                               <!-- map-->
-                              <div id="map-canvas"></div>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.5772579624804!2d77.08345741507881!3d28.46215728248524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18db46efe4c3%3A0xd719a9e75ab0e8db!2sGreen%20Ave%2C%20DLF%20Phase%20IV%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1628071499851!5m2!1sen!2sin" width="100%" height="495" style="border:0px;" allowfullscreen="" loading="lazy"></iframe>
                            </div>
                            <!-- /col-md--->
                         </div>

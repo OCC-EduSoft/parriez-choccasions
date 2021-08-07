@@ -9,11 +9,11 @@ include './header.php';
                   <!-- Slide 1 -->
                   <div class="ls-slide" data-ls="duration:6000; transition2d:7; kenburnszoom:out; kenburnsscale:1.2;">
                      <!-- background image  -->
-                     <img src="img/slider/slide1.jpg" class="ls-bg" alt="" />
+                     <img src="img/slider/hs01.jpg" class="ls-bg" alt="" />
                      <!-- text  -->
                      <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400;">
                         <div class="header-text">
-                           <h1><span>Welcome to</span> <br/>Parriez Choccassions</h1>
+                           <h1><span>Welcome to</span> <br/>Parriez</h1>
                            <p class="header-p">HANDCRAFTED GOURMET CHOCOLATES</p>
                            <div class="hidden-small">
                               <a class="btn btn-primary" href="#season">Read more</a>
@@ -28,7 +28,7 @@ include './header.php';
                   <!-- Slide 2 -->
                   <div class="ls-slide" data-ls="duration:6000; transition2d:7; kenburnszoom:out; kenburnsscale:1.2;">
                      <!-- background image  -->
-                     <img src="img/slider/slide2.jpg" class="ls-bg" alt="" />
+                     <img src="img/slider/hs03.jpg" class="ls-bg" alt="" />
                      <!-- text  -->
                      <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400;">
                         <div class="header-text">
@@ -47,7 +47,7 @@ include './header.php';
                   <!-- Slide 3 -->
                   <div class="ls-slide" data-ls="duration:6000; transition2d:7; kenburnszoom:out; kenburnsscale:1.2;">
                      <!-- background image  -->
-                     <img src="img/slider/slide3.jpg" class="ls-bg" alt="" />
+                     <img src="img/slider/hs06.jpg" class="ls-bg" alt="" />
                      <!-- text  -->
                      <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400;">
                         <div class="header-text">
@@ -67,7 +67,7 @@ include './header.php';
                   <!-- Slide 4 -->
                   <div class="ls-slide" data-ls="duration:6000; transition2d:7; kenburnszoom:out; kenburnsscale:1.2;">
                      <!-- background image  -->
-                     <img src="img/slider/slide4.jpg" class="ls-bg" alt="" />
+                     <img src="img/slider/hs07.jpg" class="ls-bg" alt="" />
                      <!-- text  -->
                      <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400;">
                         <div class="header-text">
@@ -276,7 +276,7 @@ include './header.php';
                      </section>
                   </div>
                   <!-- /bg-light -->
-                  <section class="inside-page">
+                  <section class="inside-page" id="blog">
                      <div class="inside-wrapper container">
                         <h2 class="text-center-sm">Latest Blog Posts</h2>
                         <div id="owl-posts" class="col-md-12 owl-carousel">
@@ -284,26 +284,22 @@ include './header.php';
                            <div class="col-md-12 p-1">
                               <div class="post-slide box-hover">
                                  <div class="post-img">
-                                    <a href="blog-single.php">
+                                    <a href="blog-single.php?id=1">
                                        <!-- Image -->
-                                       <img class="img-responsive" src="img/blog/blogprev1.jpg" alt="">
+                                       <img class="img-responsive" src="img/blog/blog1.jpg" alt="">
                                        <!--date -->
                                        <div class="post-date">
-                                          <span class="date">13</span>
-                                          <span class="month">jan</span>
+                                          <span class="date">25</span>
+                                          <span class="month">may</span>
                                        </div>
                                     </a>
                                  </div>
                                  <!-- post info -->
                                  <div class="post-review">
-                                    <h5 class="post-title"><a href="blog-single.php">The Best pastries for easter time</a></h5>
-                                    <ul class="post-bar">
-                                       <li><i class="fa fa-user"></i><a href="#">admin</a></li>
-                                       <li><i class="fa fa-comment"></i><a href="#">7</a></li>
-                                    </ul>
-                                    <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni, nesciunt obcaecati possimus...</p>
+                                    <h5 class="post-title post-bar"><a href="blog-single.php?id=1">Hidden Chocolate Facts: 5 Fun Facts About Your Favorite Sweet Treat</a></h5>
+                                    <p class="post-description">Nothing is better than eating a rich piece of chocolate for dessert (or any other time of the day, who am I to judge!)...</p>
                                     <!-- button -->
-                                    <a class="btn btn-primary btn-md" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary btn-md" href="blog-single.php?id=1">Read More</a>
                                  </div>
                                  <!--/post-review -->
                               </div>
@@ -314,26 +310,22 @@ include './header.php';
                            <div class="col-md-12 p-1">
                               <div class="post-slide box-hover">
                                  <div class="post-img">
-                                    <a href="blog-single.php">
+                                    <a href="blog-single.php?id=2">
                                        <!-- Image -->
-                                       <img class="img-responsive" src="img/blog/blogprev2.jpg" alt="">
+                                       <img class="img-responsive" src="img/blog/blog2.jpg" alt="">
                                        <!--date -->
                                        <div class="post-date">
-                                          <span class="date">07</span>
-                                          <span class="month">feb</span>
+                                          <span class="date">05</span>
+                                          <span class="month">sep</span>
                                        </div>
                                     </a>
                                  </div>
                                  <!-- post info -->
                                  <div class="post-review">
-                                    <h5 class="post-title"><a href="blog-single.php">Order our new Red Velvet Cake </a></h5>
-                                    <ul class="post-bar">
-                                       <li><i class="fa fa-user"></i><a href="#">admin</a></li>
-                                       <li><i class="fa fa-comment"></i><a href="#">7</a></li>
-                                    </ul>
-                                    <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni, nesciunt obcaecati possimus...</p>
+                                    <h5 class="post-title post-bar"><a href="blog-single.php?id=2">Did you know that  Chocolate Can Help promote Your Company</a></h5>
+                                    <p class="post-description">Running a business is like a game of hide and seek! You have to find your target audience and tag along them without being obtrusive....</p>
                                     <!-- button -->
-                                    <a class="btn btn-primary btn-md" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary btn-md" href="blog-single.php?id=2">Read More</a>
                                  </div>
                                  <!--/post-review -->
                               </div>
@@ -344,26 +336,22 @@ include './header.php';
                            <div class="col-md-12 p-1">
                               <div class="post-slide box-hover">
                                  <div class="post-img">
-                                    <a href="blog-single.php">
+                                    <a href="blog-single.php?id=3">
                                        <!-- Image -->
-                                       <img class="img-responsive" src="img/blog/blogprev3.jpg" alt="">
+                                       <img class="img-responsive" src="img/blog/blog3.jpg" alt="">
                                        <!--date -->
                                        <div class="post-date">
-                                          <span class="date">13</span>
-                                          <span class="month">feb</span>
+                                          <span class="date">08</span>
+                                          <span class="month">june</span>
                                        </div>
                                     </a>
                                  </div>
                                  <!-- post info -->
                                  <div class="post-review">
-                                    <h5 class="post-title"><a href="blog-single.php">Order your Valentines day Cake</a></h5>
-                                    <ul class="post-bar">
-                                       <li><i class="fa fa-user"></i><a href="#">admin</a></li>
-                                       <li><i class="fa fa-comment"></i><a href="#">7</a></li>
-                                    </ul>
-                                    <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni, nesciunt obcaecati possimus...</p>
+                                    <h5 class="post-title post-bar"><a href="blog-single.php?id=3">How Chocolate is Made?</a></h5>
+                                    <p class="post-description">As a chocolate lover, you already know that chocolate comes from the cocoa bean. Perhaps you’ve read our guide to cocoa plants and you know all about the ideal climate, different cocoa varieties and the fascinating...</p>
                                     <!-- button -->
-                                    <a class="btn btn-primary btn-md" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary btn-md" href="blog-single.php?id=3">Read More</a>
                                  </div>
                                  <!--/post-review -->
                               </div>
@@ -374,26 +362,22 @@ include './header.php';
                            <div class="col-md-12 p-1">
                               <div class="post-slide  box-hover">
                                  <div class="post-img">
-                                    <a href="blog-single.php">
+                                    <a href="blog-single.php?id=4">
                                        <!-- Image -->
-                                       <img class="img-responsive" src="img/blog/blogprev4.jpg" alt="">
+                                       <img class="img-responsive" src="img/blog/blog4.jpg" alt="">
                                        <!--date -->
                                        <div class="post-date">
-                                          <span class="date">22</span>
-                                          <span class="month">feb</span>
+                                          <span class="date">01</span>
+                                          <span class="month">nov</span>
                                        </div>
                                     </a>
                                  </div>
                                  <!-- post info -->
                                  <div class="post-review">
-                                    <h5 class="post-title"><a href="blog-single.php">Gingerbread decoration workshop</a></h5>
-                                    <ul class="post-bar">
-                                       <li><i class="fa fa-user"></i><a href="#">admin</a></li>
-                                       <li><i class="fa fa-comment"></i><a href="#">7</a></li>
-                                    </ul>
-                                    <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni, nesciunt obcaecati possimus...</p>
+                                    <h5 class="post-title post-bar"><a href="blog-single.php?id=4">Everything You Need to Know about Couverture Chocolate</a></h5>
+                                    <p class="post-description">Working in the chocolate world gives you a keen insight into common misconceptions about the craft. Often we are bombarded with...</p>
                                     <!-- button -->
-                                    <a class="btn btn-primary btn-md" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary btn-md" href="blog-single.php?id=4">Read More</a>
                                  </div>
                                  <!--/post-review -->
                               </div>
@@ -402,7 +386,7 @@ include './header.php';
                            <!-- /col-md-12 -->
                         </div>
                         <!-- alert box -->
-                        <div class="alert-bg alert alert-info col-md-12 margin1">
+                        <div class="alert-bg alert alert-info col-md-12 margin1" style="background-image: url(img/order.jpg);">
                            <h5>Custom Orders</h5>
                            <p>We take great pride in understanding and fulfilling bespoke orders. If you have a large order quantity in mind for a special occasion, we would be delighted for you to personally visit us.</P>
                            <p>You could sample and taste our full ensemble together and then our Master Chocolatier would help you decide your final selection. We would be truly excited to host you to discuss large orders for festivals, weddings, birthdays, anniversaries or appreciation for your business partners or office colleagues. 
@@ -415,5 +399,6 @@ include './header.php';
                      <!-- /inside-wrapper -->
                   </section>
 <?php
+include './faq.php';
 include './footer.php';
 ?>                  

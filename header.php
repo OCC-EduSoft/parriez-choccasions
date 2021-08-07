@@ -6,7 +6,8 @@ $pages = array(
     'aboutus.php' => 'About',
     'gallery.php' => 'Gallery',
     'menu.php' => 'Menu',
-    'blog.php' => 'Blog',
+    'order.php' => 'How to Order',
+    'index.php?id=#blog' => 'Blog',
     'contact.php' => 'Contact',
 ) ;
 
@@ -49,9 +50,10 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
       <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
       <!-- <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon"> -->
-      <link href="img/fav.jpg" rel="icon">
+      <link href="img/icon.png" rel="icon">
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <!-- style CSS -->
       <link href="css/style.css" rel="stylesheet">
       <!-- plugins CSS -->
@@ -143,10 +145,10 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                   <!--Social icons -->
                   <div class="social-media ">
                      <a href="mailto:contact@parriez.com" title=""><i class="fas fa-envelope"></i></a>
-                     <a href="#" title=""><i class="fab fa-whatsapp"></i></a>
-                     <a href="#" title=""><i class="fab fa-twitter"></i></a>
-                     <a href="#" title=""><i class="fab fa-facebook"></i></a>
-                     <a href="#" title=""><i class="fab fa-instagram"></i></a>
+                     <a href="https://api.whatsapp.com/send?phone=+919960304794" target="_blank" title=""><i class="fab fa-whatsapp"></i></a>
+                     <a href="https://twitter.com/ParriezChocola1" target="_blank" title=""><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.facebook.com/parriez/" target="_blank" title=""><i class="fab fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/parriez_chocolates/" target="_blank" title=""><i class="fab fa-instagram"></i></a>
                   </div>
                </div>
                <!-- /navbar-info -->

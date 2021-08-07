@@ -5,6 +5,7 @@ $pages = array(
     'aboutus.php' => 'About',
     'gallery.php' => 'Gallery',
     'menu.php' => 'Menu',
+    'order.php' => 'How to Order',
     'blog.php' => 'Blog',
     'contact.php' => 'Contact',
 ) ;
@@ -12,69 +13,7 @@ $pages = array(
 $currentPage = basename($_SERVER['REQUEST_URI']) ;
 ?>
 <!-- footer -->
-               <section class="inside-page">
-                     <div class="inside-wrapper container">
-                        <div class="row">
-                           <div class="col-md-5">
-                              <h4 class="no-margin-top">Frequently asked questions</h4>
-                              <p>Fusce mollis imperdiet interdum donec eget metus auguen unc, Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-                           </div>
-                           <div class="col-md-7">
-                              <!-- Accordions -->
-                              <div class="panel-group" id="accordion">
-                                 <!-- Question 1 -->
-                                 <div class="panel">
-                                    <div class="panel-heading">
-                                       <h6 class="panel-title">
-                                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Do you offer vegan options?</a>
-                                       </h6>
-                                    </div>
-                                    <!-- /panel-heading -->
-                                    <div id="collapse1" class="panel-collapse collapse in">
-                                       <div class="panel-body">
-                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <!--/panel -->
-                                 <!-- Question 2 -->
-                                 <div class="panel">
-                                    <div class="panel-heading">
-                                       <h6 class="panel-title">
-                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Do you offer catering services?</a>
-                                       </h6>
-                                    </div>
-                                    <!-- /panel-heading -->
-                                    <div id="collapse2" class="panel-collapse collapse">
-                                       <div class="panel-body">
-                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <!--/panel -->
-                                 <!-- Question 3 -->
-                                 <div class="panel">
-                                    <div class="panel-heading">
-                                       <h6 class="panel-title">
-                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">How many days in advance should I order?</a>
-                                       </h6>
-                                    </div>
-                                    <div id="collapse3" class="panel-collapse collapse">
-                                       <div class="panel-body">
-                                          <p>Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <!--/panel -->              
-                              </div>
-                              <!-- /.accordion -->    
-                           </div>
-                           <!-- /col-md- -->    
-                        </div>
-                        <!-- /row -->     
-                     </div>
-                     <!-- /inside-wrapper -->
-                  </section>
+               
                   <footer class="footer">
                      <!-- image gradient overlay-->
                      <div class="gradient-overlay top-to-bottom"></div>
@@ -112,25 +51,20 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                            <p><i class="far fa-clock margin-icon"></i>Mon-Sat: 9am-5pm</p>
                            <!--Social icons -->
                            <div class="social-media ">
-                              <a href="#" title=""><i class="fas fa-envelope"></i></a>
-                              <a href="#" title=""><i class="fab fa-whatsapp"></i></a>
-                              <a href="#" title=""><i class="fab fa-twitter"></i></a>
-                              <a href="#" title=""><i class="fab fa-facebook"></i></a>
-                              <a href="#" title=""><i class="fab fa-instagram"></i></a>
+                              <a href="mailto:contact@parriez.com" title=""><i class="fas fa-envelope"></i></a>
+                              <a href="https://api.whatsapp.com/send?phone=+919960304794" target="_blank" title=""><i class="fab fa-whatsapp"></i></a>
+                              <a href="https://twitter.com/ParriezChocola1" target="_blank" title=""><i class="fab fa-twitter"></i></a>
+                              <a href="https://www.facebook.com/parriez/" target="_blank" title=""><i class="fab fa-facebook"></i></a>
+                              <a href="https://www.instagram.com/parriez_chocolates/" target="_blank" title=""><i class="fab fa-instagram"></i></a>
                            </div>
                            <!-- /brand -->
                         </div>
                         <div class="col-md-12 text-center">
-                           <p class="copy">Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="http://parriez.com">Parriez Choccasions</a>. All rights reserved.</p>
+                           <p class="copy">Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="http://parriez.com">Parriez Choccasions</a>. All rights reserved.Powered by <a href="https://occedusoft.com/">OCC Edusoft</a>.</p>
                         </div>
                         <!--/ footer-->
                      </div>
                      <!-- / inside-wrapper -->
-                     <!-- Go To Top Link -->
-                     <div class="page-scroll">
-                        <a href="#top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
-                     </div>
-                     <!--/page-scroll-->
                   </footer>
                   <!-- / footer-->
                </div>
@@ -141,6 +75,16 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
          <!-- /content -->
       </div>
       <!-- /container-fluid -->
+
+     
+         <ul>
+            <li class="page-scroll">
+               <a href="#top" class="back-to-top"><i class="fa fa-angle-up"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=+919960304794" class="float" target="_blank"><i class="fab fa-whatsapp"style="font-size:24px"></i></a></li>
+            <li><a href="tel:+919953359003" class="float" style="position:fixed;width:35px;height:35px;bottom:128px;right:19px;background-color:blue;color:#FFF;border-radius:50px;text-align:center;font-size:22px;box-shadow: 2px 2px 3px #999;z-index:100;"><i class="fas fa-phone-alt  my-float"style="color: white;margin-left:1px; margin-bottom:20px !important;font-size: 20px;"></i></a></li>
+         </ul>
+      
+      <!--/page-scroll-->
       <!-- Bootstrap core & Jquery -->
       <script src="vendor/jquery/jquery.min.js"></script>
       <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

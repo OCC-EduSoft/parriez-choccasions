@@ -246,13 +246,8 @@ include './header.php';
                                        </p>
                                     </div>
                                     <!-- /content -->
-                                    <div class="testimonial-pic">
-                                       <img src="img/about/testimonial1.jpg" class="img-fluid" alt="">
-                                    </div>
-                                    <!-- /testimonial-pic -->
                                     <div class="testimonial-review">
                                        <h6 class="testimonial-title">Sanjeev Dhawan</h6>
-                                       <span>Teacher</span>
                                     </div>
                                     <!-- /testimonial-review -->
                                  </div>
@@ -261,17 +256,11 @@ include './header.php';
                                  <div class="testimonial box-hover">
                                     <div class="content">
                                        <p class="description">
-                                          Your Chocolates are out of this world in taste, flavour and visuals, the packaging is amazing and service par excellence. Thank you once again.                        
-                                       </p>
+                                          Your Chocolates are out of this world in taste, flavour and visuals, the packaging is amazing and service par excellence. Thank you once again.               </p>
                                     </div>
                                     <!-- /content -->
-                                    <div class="testimonial-pic">
-                                       <img src="img/about/testimonial2.jpg" class="img-fluid" alt="">
-                                    </div>
-                                    <!-- /testimonial-pic -->
                                     <div class="testimonial-review">
                                        <h6 class="testimonial-title">Sarita Bhalla</h6>
-                                       <span>Doctor</span>
                                     </div>
                                     <!-- /testimonial-review -->
                                  </div>
@@ -284,14 +273,307 @@ include './header.php';
                                        </p>
                                     </div>
                                     <!-- /content -->
-                                    <div class="testimonial-pic">
-                                       <img src="img/about/testimonial3.jpg" class="img-fluid" alt="">
-                                    </div>
-                                    <!-- /testimonial-pic -->
                                     <div class="testimonial-review">
-                                       <h6 class="testimonial-title">Inkeri Siekkinen - First lady - Finland Embassy</h6>
-                                       <span>Librarian</span>
+                                       <h6 class="testimonial-title">Inkeri Siekkinen - First lady - Finland Embassy</h6>                      </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Its hard to find words to describe these lovely pieces of chocolates.     
+                                       </p>
                                     </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Lissn Paavdn</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          YUMMY N DELICIOUS chocolates               </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Rennu Dhindsa</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Exquisite Chocolates</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Monika Rai Mittal</h6>                      </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Really lovely taste         
+                                       </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Ugyue G Phel</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Wonderful ! Great taste.</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Anandita Sen</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          For special gifting</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Ajay</h6>                      </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Absolutely Divine    
+                                       </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Kiran Thapar</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Best chocolates ever had…              </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Kushagra</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                         Great Chocs and keep up the efforts.</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Col. Thinloey Dorji</h6>                      </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Awesome !          
+                                       </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Leenna Dheer</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Loved it !!!         </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Payal</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Lovely !!               
+                                       </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Priya Sabharwal</h6>                      </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Really awesome at taste.     
+                                       </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Aiswarya  Iyengar</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Goood !               </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Prerna Grover</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                         !!! Excellent !!</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Ziva Rubin</h6>                      </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          What pleasure….         
+                                       </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Deepika Jindal</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Super Flavor !!!</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Mukesh</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Outstanding Chocolates !!!</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Rohan</h6>                      </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                          Excellent Blueberry chocolate !   
+                                       </p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Dr. Lopa Das</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                         Coffee chocolate is just awesome</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Neha</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                         Delicious</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Nicola</h6>                      </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                         Mouth melting  -- Yumm--</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Manmeet Kaur</h6>
+                                    </div>
+                                    <!-- /testimonial-review -->
+                                 </div>
+                                 <!-- /testimonial -->
+                                 <!-- testimonial -->
+                                 <div class="testimonial box-hover">
+                                    <div class="content">
+                                       <p class="description">
+                                         Fabulous stuff</p>
+                                    </div>
+                                    <!-- /content -->
+                                    <div class="testimonial-review">
+                                       <h6 class="testimonial-title">Piyush Gupta</h6>                      </div>
                                     <!-- /testimonial-review -->
                                  </div>
                                  <!-- /testimonial -->
