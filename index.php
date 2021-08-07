@@ -112,7 +112,7 @@ include './header.php';
                            <p> They have consistently rated Parriez to be the preferred brand. We truly believe that sincerity and promise makes us the right partners for you to gift Parriez chocolates, the right token of appreciation for your clients and associates. To personalize your gift besides customozed box, we could also imprint your logo / message on white chocolate.</p>
                         </div>
                         <!-- owl-carousel -->
-                        <div id="owl-services" class="owl-carousel owl-theme text-center res-margin">
+                        <div id="owl-services" class="owl-carousel owl-theme text-center res-margin" style="display:none;">
                            <!-- service 1  -->
                            <div class="col-lg-12 p-1">
                               <div class="box-hover icon p-3">
@@ -250,19 +250,8 @@ include './header.php';
                                     <!-- /tab-pane -->
                                     <div class="tab-pane fade" id="C">
                                        <h3 class="text-center-sm">Quality Ingredients</h3>
-                                       <p>Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
-                                       <p><strong>Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall Maecenas at arcu risus scelerisque laoree.</strong></p>
-                                       <p>Felis tiam non metus Placerat a ultricies a, posuere lorem ipseut lincas psuiem t volut pat phas ellus ac 
-                                          sodales Lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id omnis a nibh fusce mollis  
-                                          viverra elit
-                                       </p>
-                                       <p>Felis tiam non metus Placerat a ultricies a, posuere lorem ipseut lincas psuiem t volut pat phas ellus ac 
-                                          sodales Lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id omnis a nibh fusce mollis 
-                                          imperdie tlorem ipuset campas fincas interdum donec eget metus auguen unc vel mauris ultricies, vest ibulum 
-                                          orci eget usce mollis imperdiet interdum donec eget metus auguen unc vel lorem ispuet Ibu lum orci eget, 
-                                          viverra elit liquam erat volut pat phas ellus ac sodales Lorem ipsum dolor sit amet, consectetur adipisicing
-                                          elit uasi quidem minus id omnis.
-                                       </p>
+                                       <p>We’ve established that the cocoa bean growth and processing affects the flavor and quality of chocolate, but what about the other ingredients? The chocolate you consume is more than cocoa liquor, cocoa butter and cocoa powder. The quality of the nonchocolate ingredients, including milk, sugar, vanilla and stabilizers, also affects the quality of the finished chocolate product.</p>
+                                       <p>Pure flavorings and natural ingredients, rather than artificial flavoring, produce the best-quality chocolate candy. Chemical preservatives also affect the flavor and quality of the finished product. Top-notch chocolate products use the simplest, purest ingredients so the true flavor shines through.</p>
                                     </div>
                                     <!-- /tab-pane -->
                                  </div>

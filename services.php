@@ -45,7 +45,7 @@ include './header.php';
                         </div>
                         <!--/row -->
                         <!-- owl-carousel -->
-                        <div id="owl-services" class="owl-carousel owl-theme text-center res-margin">
+                        <div id="owl-services" class="owl-carousel owl-theme text-center res-margin" style="display:none;" >
                            <!-- service 1  -->
                            <div class="col-lg-12 p-1">
                               <div class="box-hover icon p-3">

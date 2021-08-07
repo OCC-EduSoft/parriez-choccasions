@@ -175,7 +175,214 @@ include './header.php';
                                     </div>
                                  </div>
                               </div>
-
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/coconut-conquer.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/coconut-conquer.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Coconut Conquer</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/coffee-creature.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/coffee-creature.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Coffee Creature</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/crackling-citrus.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/crackling-citrus.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Crackling Citrus</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/hazelnut-hope.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/hazelnut-hope.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Hazelnut Hope</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/languid-lemon-dsc_8084.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/languid-lemon-dsc_8084.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Languid Lemon</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/litchi-linger-dsc_8033.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/litchi-linger-dsc_8033.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Litchi Linger</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/mango-mingle-dsc_8022.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/mango-mingle-dsc_8022.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Mango Mingle</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/mint-mercy-dsc_8062.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/mint-mercy-dsc_8062.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Mint Mercy</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/pineapple-plunge-dsc_8080.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/pineapple-plunge-dsc_8080.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Pineapple Plunge</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/rose-resonance-dsc_8026.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/rose-resonance-dsc_8026.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Rose Resonance</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/strawberry-splash-dsc_8068.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/strawberry-splash-dsc_8068.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Strawberry Splash</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/very-vanilla-dsc_8014.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/very-vanilla-dsc_8014.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Very Vanilla</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
                            </div>
                            <!-- row -->
                            <h4 class="text-center">“All you need is love. But a little chocolate now and then doesn't hurt.”</h4>
