@@ -2053,5 +2053,19 @@ Last change: 11 March 2020
   box-shadow: 2px 2px 3px #999;
   z-index:100;
 }
-
+.loader-circle {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  position:fixed;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
  

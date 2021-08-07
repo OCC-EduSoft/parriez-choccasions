@@ -523,6 +523,5 @@ else if ($type=="uploadfaqs") {
     $data=array("success" => 0);
   }
 }
- echo json_encode($data)
   echo json_encode($data);
 ?>

@@ -94,30 +94,4 @@
       </div>
       <!-- /inside-wrapper -->
    </section>
-   <script>
-   $("#faqform").on('submit',function(e){
-
-        // loader();
-        
-        $.ajax({
-            url: './Dashboard/backend/data.php',
-            type: 'POST',
-            dataType: 'json',
-            data: {
-                type: "uploadfaqs",
-                question: $("#question").val()
-            },
-            success: function(data) {
-                // $.unblockUI();
-                
-                if(data['success'] == 1){
-                    console.log('data uploded successfully!');
-                }
-            },
-        });    
-        
-        return false;
-        
-    });
-</script>
-
+   

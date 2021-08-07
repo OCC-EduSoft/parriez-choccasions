@@ -66,7 +66,7 @@ include './header.php';
                            <div class="col-md-4 res-margin">
                               <div class="box-hover icon p-2">
                                  <!---icon-->
-                                 <i class="fa fa-map-marker small-icon"></i>
+                                 <i class="fas fa-map-marker-alt small-icon" aria-hidden="false"></i>
                                  <!-- contact-icon info-->
                                  <div class="contact-icon-info">
                                     <h5>Our Location</h5>

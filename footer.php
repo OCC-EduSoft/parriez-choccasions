@@ -13,7 +13,23 @@ $pages = array(
 $currentPage = basename($_SERVER['REQUEST_URI']) ;
 ?>
 <!-- footer -->
-               
+<style>
+.loader-circle {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  position:fixed;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+</style>               
                   <footer class="footer">
                      <!-- image gradient overlay-->
                      <div class="gradient-overlay top-to-bottom"></div>
@@ -99,6 +115,68 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
       <script src="vendor/layerslider/js/layerslider.transitions.js"></script>
       <script src="vendor/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
       <script src="vendor/layerslider/js/layerslider.load.js"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
+      <script src="./Dashboard/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+      <script>
+    function loader(){
+        
+        jQuery.blockUI({
+            message: '<div class="loader-circle"></div>',
+            overlayCSS: {
+                backgroundColor: '#000',
+                opacity: 0.7,
+                cursor: 'wait'
+            },
+            css: {
+                color: '#333',
+                border: 0,
+                padding: 0,
+                backgroundColor: 'transparent'
+            },
+        });
+    
+    }     
+   $("#faqform").on('submit',function(e){
+
+        loader();
+        // console.log('hii');
+        $.ajax({
+            url: './Dashboard/backend/data.php',
+            type: 'POST',
+            dataType: 'json',
+            data: {
+                type: "uploadfaqs",
+                question: $("#question").val()
+            },
+            success: function(data) {
+                $.unblockUI();
+                
+                if(data['success'] == 1){
+                    // console.log('data uploded successfully!');
+                    Swal.fire(
+                      'Success',
+                      'Question posted successfully!',
+                      'success'
+                    ).then(function(){
+                location.reload();
+            });
+                }
+                else{
+                  Swal.fire(
+                      'Error',
+                      'Something went wrong please try again!',
+                      'error'
+                    ).then(function(){
+                location.reload();
+            });
+                }
+            },
+        });    
+        
+        return false;
+        
+    });
+</script>
+
    </body>
 </html>
