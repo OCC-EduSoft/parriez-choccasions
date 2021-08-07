@@ -242,8 +242,13 @@ include './header.php';
                                  <div class="testimonial box-hover">
                                     <div class="content">
                                        <p class="description">
-                                          Wish to post the following : Some tastes linger for lifetime...Parriez chocolates is one of them ! Truly world class!!! We presented chocolates in celebration of my son's Zoom wedding in California. They were shipped to family and friends all over India. The "chocoholics" have widely appreciated the appealing looks, subtle flavours and customised packing - all conforming to international standards. Needless to say, this is result of your deep passion and commitment. Here's wishing you every success in your endeavour - may parriez scale even greater heights.                           
-                                       </p>
+                                          Wish to post the following : Some tastes linger for lifetime...</p>
+                                       <div class="" data-toggle="collapse" data-target="#demo">Read more<i class="fa fa-angle-down"></i></div>
+                                       <div id="demo" class="collapse">
+                                          <p class="description">Parriez chocolates is one of them ! Truly world class!!! We presented chocolates in celebration of my son's Zoom wedding in California. They were shipped to family and friends all over India. The "chocoholics" have widely appreciated the appealing looks, subtle flavours and customised packing - all conforming to international standards. Needless to say, this is result of your deep passion and commitment. Here's wishing you every success in your endeavour - may parriez scale even greater heights.</p>
+                                       </div>
+                                    
+
                                     </div>
                                     <!-- /content -->
                                     <div class="testimonial-review">

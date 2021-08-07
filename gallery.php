@@ -450,8 +450,8 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g2.jpg" alt="">
+                                    <a href="img/gallery/shop/g2.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -484,8 +484,8 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g1.jpg" alt="">
-                                    <a href="img/gallery/shop/g1.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g3.jpg" alt="">
+                                    <a href="img/gallery/shop/g3.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -495,19 +495,19 @@ include './header.php';
                            <div class="westin col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g18.jpg" alt="">
+                                    <a href="img/gallery/westin/g18.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g4.jpg" alt="">
+                                    <a href="img/gallery/shop/g4.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -517,8 +517,8 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g5.jpg" alt="">
+                                    <a href="img/gallery/shop/g5.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -528,19 +528,19 @@ include './header.php';
                            <div class="westin col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g19.jpg" alt="">
+                                    <a href="img/gallery/westin/g19.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g6.jpg" alt="">
+                                    <a href="img/gallery/shop/g6.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -550,8 +550,8 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g7.jpg" alt="">
+                                    <a href="img/gallery/shop/g7.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -561,19 +561,19 @@ include './header.php';
                            <div class="westin col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g20.jpg" alt="">
+                                    <a href="img/gallery/westin/g20.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g8.jpg" alt="">
+                                    <a href="img/gallery/shop/g8.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -583,8 +583,8 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g9.jpg" alt="">
+                                    <a href="img/gallery/shop/g9.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -594,8 +594,8 @@ include './header.php';
                            <div class="westin col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g21.jpg" alt="">
+                                    <a href="img/gallery/westin/g21.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -605,8 +605,8 @@ include './header.php';
                            <div class="grand col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g18.jpg" alt="">
+                                    <a href="img/gallery/grand/g18.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -616,8 +616,8 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g10.jpg" alt="">
+                                    <a href="img/gallery/shop/g10.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -627,8 +627,8 @@ include './header.php';
                            <div class="westin col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g22.jpg" alt="">
+                                    <a href="img/gallery/westin/g22.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -638,8 +638,8 @@ include './header.php';
                            <div class="grand col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g19.jpg" alt="">
+                                    <a href="img/gallery/grand/g19.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -649,8 +649,8 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g11.jpg" alt="">
+                                    <a href="img/gallery/shop/g11.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -660,8 +660,8 @@ include './header.php';
                            <div class="westin col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g23.jpg" alt="">
+                                    <a href="img/gallery/westin/g23.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -671,8 +671,8 @@ include './header.php';
                            <div class="grand col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g20.jpg" alt="">
+                                    <a href="img/gallery/grand/g20.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -682,19 +682,19 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g12.jpg" alt="">
+                                    <a href="img/gallery/shop/g12.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g13.jpg" alt="">
+                                    <a href="img/gallery/shop/g13.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -704,8 +704,8 @@ include './header.php';
                            <div class="grand col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g21.jpg" alt="">
+                                    <a href="img/gallery/grand/g21.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -715,19 +715,19 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g14.jpg" alt="">
+                                    <a href="img/gallery/shop/g14.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g15.jpg" alt="">
+                                    <a href="img/gallery/shop/g15.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -737,8 +737,8 @@ include './header.php';
                            <div class="grand col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g22.jpg" alt="">
+                                    <a href="img/gallery/grand/g22.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -748,19 +748,19 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g16.jpg" alt="">
+                                    <a href="img/gallery/shop/g16.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g17.jpg" alt="">
+                                    <a href="img/gallery/shop/g17.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -770,8 +770,8 @@ include './header.php';
                            <div class="grand col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g23.jpg" alt="">
+                                    <a href="img/gallery/grand/g23.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -781,19 +781,19 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g18.jpg" alt="">
+                                    <a href="img/gallery/shop/g18.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g19.jpg" alt="">
+                                    <a href="img/gallery/shop/g19.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -803,8 +803,8 @@ include './header.php';
                            <div class="grand col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g24.jpg" alt="">
+                                    <a href="img/gallery/grand/g24.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -814,30 +814,30 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g20.jpg" alt="">
+                                    <a href="img/gallery/shop/g20.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g21.jpg" alt="">
+                                    <a href="img/gallery/shop/g21.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g22.jpg" alt="">
+                                    <a href="img/gallery/shop/g22.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -847,30 +847,30 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g23.jpg" alt="">
+                                    <a href="img/gallery/shop/g23.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g24.jpg" alt="">
+                                    <a href="img/gallery/shop/g24.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g25.jpg" alt="">
+                                    <a href="img/gallery/shop/g25.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -880,30 +880,30 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g26.jpg" alt="">
+                                    <a href="img/gallery/shop/g26.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g27.jpg" alt="">
+                                    <a href="img/gallery/shop/g27.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g28.jpg" alt="">
+                                    <a href="img/gallery/shop/g28.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -913,30 +913,30 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g29.jpg" alt="">
+                                    <a href="img/gallery/shop/g29.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g30.jpg" alt="">
+                                    <a href="img/gallery/shop/g30.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g31.jpg" alt="">
+                                    <a href="img/gallery/shop/g31.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -946,30 +946,30 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g32.jpg" alt="">
+                                    <a href="img/gallery/shop/g32.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g33.jpg" alt="">
+                                    <a href="img/gallery/shop/g33.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g34.jpg" alt="">
+                                    <a href="img/gallery/shop/g34.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -979,30 +979,30 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g35.jpg" alt="">
+                                    <a href="img/gallery/shop/g35.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g36.jpg" alt="">
+                                    <a href="img/gallery/shop/g36.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g37.jpg" alt="">
+                                    <a href="img/gallery/shop/g37.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -1012,30 +1012,30 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g38.jpg" alt="">
+                                    <a href="img/gallery/shop/g38.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g39.jpg" alt="">
+                                    <a href="img/gallery/shop/g39.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
+                           <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g40.jpg" alt="">
+                                    <a href="img/gallery/shop/g40.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
@@ -1045,245 +1045,23 @@ include './header.php';
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g41.jpg" alt="">
+                                    <a href="img/gallery/shop/g41.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
                            </div>
                            <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 37 -->
                            <div class="shop col-lg-3 col-sm-6 col-md-6">
                               <div class="isotope-item">
                                  <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
+                                    <img class="img-responsive img-thumbnail" src="img/gallery/shop/g42.jpg" alt="">
+                                    <a href="img/gallery/shop/g42.jpg"  title="You can add caption to pictures.">
                                     <span class="overlay-mask"></span>
                                     </a>             
                                  </div>
                               </div>
-                           </div>
-                           <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 37 -->
-                           <div class="shop col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 37 -->
-                           <div class="shop col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 37 -->
-                           <div class="shop col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 37 -->
-                           <div class="shop col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 37 -->
-                           <div class="shop col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 35 -->
-                           <div class="westin col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/westin/g16.jpg" alt="">
-                                    <a href="img/gallery/westin/g16.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 36 -->
-                           <div class="grand col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Image 37 -->
-                           <div class="shop col-lg-3 col-sm-6 col-md-6">
-                              <div class="isotope-item">
-                                 <div class="gallery-thumb">
-                                    <img class="img-responsive img-thumbnail" src="img/gallery/grand/g15.jpg" alt="">
-                                    <a href="img/gallery/grand/g15.jpg"  title="You can add caption to pictures.">
-                                    <span class="overlay-mask"></span>
-                                    </a>             
-                                 </div>
-                              </div>
-                           </div>
-
                         
                         </div>
                         <!-- /gallery-isotope-->

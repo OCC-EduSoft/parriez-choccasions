@@ -99,31 +99,6 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
       <script src="vendor/layerslider/js/layerslider.transitions.js"></script>
       <script src="vendor/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
       <script src="vendor/layerslider/js/layerslider.load.js"></script>
-      <script>
-   $("#faqform").on('submit',function(e){
-
-        // loader();
-        
-        $.ajax({
-            url: './Dashboard/backend/data.php',
-            type: 'POST',
-            dataType: 'json',
-            data: {
-                type: "uploadfaqs",
-                question: $("#question").val()
-            },
-            success: function(data) {
-                // $.unblockUI();
-                
-                if(data['success'] == 1){
-                    console.log('data uploded successfully!');
-                }
-            },
-        });    
-        
-        return false;
-        
-    });
-</script>
+      
    </body>
 </html>

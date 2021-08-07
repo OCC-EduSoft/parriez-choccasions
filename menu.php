@@ -32,7 +32,7 @@ include './header.php';
                   <section class="inside-page">
                      <div class="inside-wrapper container">
                         <h2 class="text-center">THE PARRIEZ ENSEMBLE </h2>
-                        <h4>"There is nothing better than a friend, unless it is a friend with chocolate."</h4>
+                        <h4 class="text-center">“There is nothing better than a friend, unless it is a friend with chocolate.”</h4>
                         <p class="text-center">-Linda Grayson</p>
                         <!-- Navigation -->
                         
@@ -40,13 +40,13 @@ include './header.php';
                            <div class="col-lg-3 p-1">
                                  <div class="box-hover icon p-3">
                                     <div class="img-effect">
-                                       <a href="img/menu/m1.jpg">
-                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/m1.jpg" alt="">
+                                       <a href="img/menu/alluring-almond.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/alluring-almond.jpg" alt="">
                                        </a>
                                     </div>
                                     <!-- service content -->
                                     <div class="service-content">
-                                       <h5>Alluring Almond</h5>
+                                       <h6>Alluring Almond</h6>
                                        <p>
                                           
                                        </p>
@@ -57,13 +57,13 @@ include './header.php';
                               <div class="col-lg-3 p-1">
                                  <div class="box-hover icon p-3">
                                     <div class="img-effect">
-                                       <a href="img/menu/m1.jpg">
-                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/m1.jpg" alt="">
+                                       <a href="img/menu/bashful-butter.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/bashful-butter.jpg" alt="">
                                        </a>
                                     </div>
                                     <!-- service content -->
                                     <div class="service-content">
-                                       <h5>Alluring Almond</h5>
+                                       <h6>Bashful Butterscotch</h6>
                                        <p>
                                           
                                        </p>
@@ -74,13 +74,13 @@ include './header.php';
                               <div class="col-lg-3 p-1">
                                  <div class="box-hover icon p-3">
                                     <div class="img-effect">
-                                       <a href="img/menu/m1.jpg">
-                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/m1.jpg" alt="">
+                                       <a href="img/menu/blackberry-buddy.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/blackberry-buddy.jpg" alt="">
                                        </a>
                                     </div>
                                     <!-- service content -->
                                     <div class="service-content">
-                                       <h5>Alluring Almond</h5>
+                                       <h6>Blackberry Buddy</h6>
                                        <p>
                                           
                                        </p>
@@ -91,13 +91,83 @@ include './header.php';
                               <div class="col-lg-3 p-1">
                                  <div class="box-hover icon p-3">
                                     <div class="img-effect">
-                                       <a href="img/menu/m1.jpg">
-                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/m1.jpg" alt="">
+                                       <a href="img/menu/blackcurrant-blush.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/blackcurrant-blush.jpg" alt="">
                                        </a>
                                     </div>
                                     <!-- service content -->
                                     <div class="service-content">
-                                       <h5>Alluring Almond</h5>
+                                       <h6>Blackcurrant Blush</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/blithe-blueberry.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/blithe-blueberry.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Blithe Blueberry</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/caramel-caress.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/caramel-caress.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Caramel Caress</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/cherry-churn.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/cherry-churn.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Cherry Churn</h6>
+                                       <p>
+                                          
+                                       </p>
+                                       <a class="btn btn-primary btn-md" href="#">View details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3 p-1">
+                                 <div class="box-hover icon p-3">
+                                    <div class="img-effect">
+                                       <a href="img/menu/chilli-challenge.jpg">
+                                       <img class="center-block img-responsive  img-thumbnail" src="img/menu/chilli-challenge.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <!-- service content -->
+                                    <div class="service-content">
+                                       <h6>Chilli Challenge</h6>
                                        <p>
                                           
                                        </p>
@@ -108,8 +178,10 @@ include './header.php';
 
                            </div>
                            <!-- row -->
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs full col-lg-3 margin1 tabs-left" id="myTab">
+                           <h4 class="text-center">“All you need is love. But a little chocolate now and then doesn't hurt.”</h4>
+                           <p class="text-center">-Charles M. Schulz</p>
+                           <!-- Nav tabs -->
+                        <ul class="nav nav-tabs full col-lg-3 margin1 tabs-left" id="myTab" style="display:none;">
                            <li class="active">
                               <a href="#tab1" data-toggle="tab" >
                               <i class="flaticon-cake-4"></i>
@@ -130,7 +202,7 @@ include './header.php';
                            </li>
                         </ul>
                         <div class="anchor"></div>
-                        <div class="col-lg-9">
+                        <div class="col-lg-9" style="display:none;">
                            <!-- Price tabs Start -->
                            <div class="tabbable">
                               <div class="tab-content">
